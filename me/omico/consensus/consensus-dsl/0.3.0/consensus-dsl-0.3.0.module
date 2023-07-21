@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.consensus",
+    "module": "consensus-dsl",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-api",
+          "version": {
+            "requires": "0.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "consensus-dsl-0.3.0.jar",
+          "url": "consensus-dsl-0.3.0.jar",
+          "size": 10063,
+          "sha512": "66dc7c265c2bd55e17e01d55f0dfd09c78670eab30a6b6e00dddf35a4134b10da62efee9f71487b472d95321d79025655a9dfbaf134f3165db78db29cad3c04e",
+          "sha256": "e95cf5568807d8ae522d7df77ddfe56429d1b2e71bbfe77f6739848c1128036c",
+          "sha1": "4b289a2ada7d3e15933266c975f7c4f3e9434673",
+          "md5": "c56edb86aafd54ab197a07a402595c66"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-api",
+          "version": {
+            "requires": "0.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "consensus-dsl-0.3.0.jar",
+          "url": "consensus-dsl-0.3.0.jar",
+          "size": 10063,
+          "sha512": "66dc7c265c2bd55e17e01d55f0dfd09c78670eab30a6b6e00dddf35a4134b10da62efee9f71487b472d95321d79025655a9dfbaf134f3165db78db29cad3c04e",
+          "sha256": "e95cf5568807d8ae522d7df77ddfe56429d1b2e71bbfe77f6739848c1128036c",
+          "sha1": "4b289a2ada7d3e15933266c975f7c4f3e9434673",
+          "md5": "c56edb86aafd54ab197a07a402595c66"
+        }
+      ]
+    }
+  ]
+}
