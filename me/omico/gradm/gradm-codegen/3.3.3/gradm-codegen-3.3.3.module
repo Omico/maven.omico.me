@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.gradm",
+    "module": "gradm-codegen",
+    "version": "3.3.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradm-codegen-3.3.3.jar",
+          "url": "gradm-codegen-3.3.3.jar",
+          "size": 96193,
+          "sha512": "6e4f6ec3fb6159ad5b61dcb783ce80874b32544080673788a2985d65841cbb2a977cea2437f4ded47fe1cdebed503072c8bb16041adf96d52777da3538032112",
+          "sha256": "54fed893e5ab1f9015157cbedc3340152b724d1151b45de3a665e62baaf62a28",
+          "sha1": "ffbeb814ac2976fa3fbbbe7f43f5b343205074d4",
+          "md5": "b93a56a0d0fc8c02cfd29dc68cac9678"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.elucidator",
+          "module": "elucidator",
+          "version": {
+            "requires": "0.12.0"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.14.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradm-codegen-3.3.3.jar",
+          "url": "gradm-codegen-3.3.3.jar",
+          "size": 96193,
+          "sha512": "6e4f6ec3fb6159ad5b61dcb783ce80874b32544080673788a2985d65841cbb2a977cea2437f4ded47fe1cdebed503072c8bb16041adf96d52777da3538032112",
+          "sha256": "54fed893e5ab1f9015157cbedc3340152b724d1151b45de3a665e62baaf62a28",
+          "sha1": "ffbeb814ac2976fa3fbbbe7f43f5b343205074d4",
+          "md5": "b93a56a0d0fc8c02cfd29dc68cac9678"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradm-codegen-3.3.3-sources.jar",
+          "url": "gradm-codegen-3.3.3-sources.jar",
+          "size": 9407,
+          "sha512": "a9b9561f67254f25d11ee27dd2233f5e0834403824041e30616cb4d161c46735e319b9b154e375f8aebda82cd1c15506d3f6e940ac1fa646e100cf102e77db60",
+          "sha256": "c55fcdcdb20f495aca92c6eda4deb3eba920850afd3ca7303fad1cfc09ea7348",
+          "sha1": "29a3d9a35f22500110a983b5e0eadb88c55dae8b",
+          "md5": "82a87a482215baaa88383cb2f9f34f12"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradm-codegen-3.3.3-javadoc.jar",
+          "url": "gradm-codegen-3.3.3-javadoc.jar",
+          "size": 261,
+          "sha512": "45126b79e1c8c7ecb732f48ad25dc98162e9d3a9fa229e9fca70642d3aead3ac2c463fce1e42226cc42ed1b8a8d6cfe0e17a436f3400202303af95f3e8164f15",
+          "sha256": "e9ae29b9f93a48dc413a7e448252eeabd656d48b3d798b0e1cb76c9f808c7d6d",
+          "sha1": "c11a08705220a910fa79f7f1eb8482098b132af1",
+          "md5": "aa7b9c6e42995c5bc05d64d4b7f20af5"
+        }
+      ]
+    }
+  ]
+}

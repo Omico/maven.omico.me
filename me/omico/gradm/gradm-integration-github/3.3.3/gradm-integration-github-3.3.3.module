@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.gradm",
+    "module": "gradm-integration-github",
+    "version": "3.3.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradm-integration-github-3.3.3.jar",
+          "url": "gradm-integration-github-3.3.3.jar",
+          "size": 33500,
+          "sha512": "576c648775a394ee9508afb1e69117cf7d02f39a6f670988fda49954d9c0c1a8ab00f598dfc5d110814fd0b90e8f24d5b13a87d9b08554df41e6bd7cc8f2b81b",
+          "sha256": "917770e7273ba6e8995859cfd528de79488ad2eb4accd27ce90ba42430bfa0e7",
+          "sha1": "2113119b2fc10e1a8a2c618d0c14014803f0dec4",
+          "md5": "ea4903d869137448d42b35d1acd7b58a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradm-integration-github-3.3.3.jar",
+          "url": "gradm-integration-github-3.3.3.jar",
+          "size": 33500,
+          "sha512": "576c648775a394ee9508afb1e69117cf7d02f39a6f670988fda49954d9c0c1a8ab00f598dfc5d110814fd0b90e8f24d5b13a87d9b08554df41e6bd7cc8f2b81b",
+          "sha256": "917770e7273ba6e8995859cfd528de79488ad2eb4accd27ce90ba42430bfa0e7",
+          "sha1": "2113119b2fc10e1a8a2c618d0c14014803f0dec4",
+          "md5": "ea4903d869137448d42b35d1acd7b58a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradm-integration-github-3.3.3-sources.jar",
+          "url": "gradm-integration-github-3.3.3-sources.jar",
+          "size": 5080,
+          "sha512": "057e070b1d1720353ff2d2de1088e72926ba7419bc1833bd9bc46026bc74923cc20418583d9a7af5085b79f0e5639dcee965a398fd7f86753f20c666ffae5ec5",
+          "sha256": "1e9c51acb48cc360d3437414cb95d151e6a14167aef04b30bc833813876174da",
+          "sha1": "032dfcacff0416d14a5b28df9fd8973dff1f955e",
+          "md5": "9c8bc28205b382a9e191585f2c5e93d6"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradm-integration-github-3.3.3-javadoc.jar",
+          "url": "gradm-integration-github-3.3.3-javadoc.jar",
+          "size": 261,
+          "sha512": "d67e00e0973f3a9be6d0683de4471d321f77ee20a3ac3c7f070f8e2da1e0372ff4e116b007113f0b6cc7b1e3977ecc0412fb7ec19a122cef84d704a9e21317df",
+          "sha256": "9d1ed32f9f28058c816033bc8078d0accb6147055ebd1ef7bbb18a67230771ee",
+          "sha1": "c29d696c6427be6213073b619919135c4dc931fc",
+          "md5": "555c7ef69dc51fb5d7c0c2e274bb6f87"
+        }
+      ]
+    }
+  ]
+}

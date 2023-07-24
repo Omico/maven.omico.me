@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.gradm",
+    "module": "gradm-gradle-plugin",
+    "version": "3.3.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "gradm-gradle-plugin-3.3.3.jar",
+          "url": "gradm-gradle-plugin-3.3.3.jar",
+          "size": 43137,
+          "sha512": "48d79cb08c4f64e5ac7e55359c268d12c498c9193c5f03bd333e436ed05bde653cfa1401bfe5656f1674fd3e831796b50bcaaab712af507f7157ee7d3c8cc503",
+          "sha256": "fca086f2c361b18e5ee381021a3c8a9231a1ecd05e451c4f783f412be3338977",
+          "sha1": "520df146a305f8ec4bacff40fa1d2365e421fdb7",
+          "md5": "b2ddd0269481c1335ba2f3dadf635959"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.gradm",
+          "module": "gradm-codegen",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "me.omico.gradm",
+          "module": "gradm-integration",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "me.omico.gradm",
+          "module": "gradm-runtime",
+          "version": {
+            "requires": "3.3.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradm-gradle-plugin-3.3.3.jar",
+          "url": "gradm-gradle-plugin-3.3.3.jar",
+          "size": 43137,
+          "sha512": "48d79cb08c4f64e5ac7e55359c268d12c498c9193c5f03bd333e436ed05bde653cfa1401bfe5656f1674fd3e831796b50bcaaab712af507f7157ee7d3c8cc503",
+          "sha256": "fca086f2c361b18e5ee381021a3c8a9231a1ecd05e451c4f783f412be3338977",
+          "sha1": "520df146a305f8ec4bacff40fa1d2365e421fdb7",
+          "md5": "b2ddd0269481c1335ba2f3dadf635959"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradm-gradle-plugin-3.3.3-sources.jar",
+          "url": "gradm-gradle-plugin-3.3.3-sources.jar",
+          "size": 14071,
+          "sha512": "64bf9ebfcc594ee80db1d1ecda17eae3f7dc89671ce51f61c7e4a7fec2c7c27d7c6db1ff180cb101df2dfc8536fcef9b020a29be3e5782e0a45636a4c3003f04",
+          "sha256": "6bb7435e23d6e3e2660e246419f53a066020d17b065e8875e4ad1fce8993d601",
+          "sha1": "ec93b081fff6ee2f77143d27273472e6f2f71f12",
+          "md5": "0956dcd93d0514fb7095b2e255746c19"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradm-gradle-plugin-3.3.3-javadoc.jar",
+          "url": "gradm-gradle-plugin-3.3.3-javadoc.jar",
+          "size": 261,
+          "sha512": "d6fe857aff2d42bcc1c39f918555d511d839c41bff774d94a4a6711ebdcfb4981a588459b03602b22ff25c5f88e983acd4df15ce7832abc0c70379f802a57b1a",
+          "sha256": "a8f4b9e1ab6423c35b57a90cdcb72e21d9c036bc607c336d0baf7e009cd48c6a",
+          "sha1": "24006351e72f07783fb55355ba66f285e2128392",
+          "md5": "4c38366ac6a3d195f9f67831ad331a3f"
+        }
+      ]
+    }
+  ]
+}

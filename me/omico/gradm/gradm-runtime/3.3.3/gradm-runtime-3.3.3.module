@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.gradm",
+    "module": "gradm-runtime",
+    "version": "3.3.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradm-runtime-3.3.3.jar",
+          "url": "gradm-runtime-3.3.3.jar",
+          "size": 207084,
+          "sha512": "06649e11baf02dd2d018b27c59e39d3458ab43b51ae71529bbab3797efe02ac9a79c391147a5afb840a3641b2220f8458ee757bb0887a92b038502ba53841681",
+          "sha256": "155e5a90f361e83bcb56aeed6c84dafe0a796b537c574b93ccccc7d2bf3ce8ef",
+          "sha1": "2acfec8bae7a140cd1c3bc584da5f6e516f5db80",
+          "md5": "de05d6a5cc47f7065cb7f5f98a7667be"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.snakeyaml",
+          "module": "snakeyaml-engine",
+          "version": {
+            "requires": "2.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradm-runtime-3.3.3.jar",
+          "url": "gradm-runtime-3.3.3.jar",
+          "size": 207084,
+          "sha512": "06649e11baf02dd2d018b27c59e39d3458ab43b51ae71529bbab3797efe02ac9a79c391147a5afb840a3641b2220f8458ee757bb0887a92b038502ba53841681",
+          "sha256": "155e5a90f361e83bcb56aeed6c84dafe0a796b537c574b93ccccc7d2bf3ce8ef",
+          "sha1": "2acfec8bae7a140cd1c3bc584da5f6e516f5db80",
+          "md5": "de05d6a5cc47f7065cb7f5f98a7667be"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradm-runtime-3.3.3-sources.jar",
+          "url": "gradm-runtime-3.3.3-sources.jar",
+          "size": 32378,
+          "sha512": "4af091e3b7b8533f1eaeee8a2907eae465c03c75291ad8bb40e3d7c41444e479df594907058f767eefa02735c15a720192188bc4533e2c87a34e563453a3ed93",
+          "sha256": "84c2ab069d1a09f50ce1b2f4ecbd5df2dc1dc87317353a80bd005e0a953ad079",
+          "sha1": "a85e4079272f08d1373a6e63b3bf46f64963a438",
+          "md5": "26246f30b1003aa638c930c0c3a43fde"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradm-runtime-3.3.3-javadoc.jar",
+          "url": "gradm-runtime-3.3.3-javadoc.jar",
+          "size": 261,
+          "sha512": "8b527f676a7e9696a73c758086c03f396a211ebfcf6ddcd8437c26ad49cbfcec17a3e313d0a3ea76fed281f5b2797205570710bbb37d7f8992fddee1ee498c19",
+          "sha256": "240820b259ba65d7a0bbd33b05a8085735901077811cb5be41d9191d76d676f4",
+          "sha1": "be307bb215eeb93b4cd3b0c6fcb8c6da9e713b4d",
+          "md5": "eb0c0c3c92ed15b4a3bf57657f8185f5"
+        }
+      ]
+    }
+  ]
+}
