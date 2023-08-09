@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.omico.gradm</groupId>
+  <artifactId>gradm-runtime</artifactId>
+  <version>4.0.0-beta01</version>
+  <name>Gradm runtime</name>
+  <description>Gradm runtime</description>
+  <url>https://github.com/Omico/Gradm</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Omico</id>
+      <name>Omico</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Omico/Gradm.git</connection>
+    <developerConnection>scm:git:https://github.com/Omico/Gradm.git</developerConnection>
+    <url>https://github.com/Omico/Gradm</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>me.omico.gradm</groupId>
+      <artifactId>gradm-api-datastore</artifactId>
+      <version>4.0.0-beta01</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.8.20</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.snakeyaml</groupId>
+      <artifactId>snakeyaml-engine</artifactId>
+      <version>2.6</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-core-jvm</artifactId>
+      <version>1.7.3</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

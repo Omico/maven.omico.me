@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.gradm",
+    "module": "gradm-api-datastore",
+    "version": "4.0.0-beta01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradm-api-datastore-4.0.0-beta01.jar",
+          "url": "gradm-api-datastore-4.0.0-beta01.jar",
+          "size": 37541,
+          "sha512": "038cfdde48dcc3e83917d519b7c01ecd4480d015de70280c81ba762088daea9edc7b275759e80a44235a7211c1527f3566660152ba2690196fface3ce8859632",
+          "sha256": "b734826fcf309f809c0f17793a2c29d128bee868f152b78576299f8857de6e87",
+          "sha1": "5a4b154e436c4e38b123f76c973612ce9d6c9d64",
+          "md5": "9e9fefd307b7031a40a0047fe7c5cab9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-protobuf",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradm-api-datastore-4.0.0-beta01.jar",
+          "url": "gradm-api-datastore-4.0.0-beta01.jar",
+          "size": 37541,
+          "sha512": "038cfdde48dcc3e83917d519b7c01ecd4480d015de70280c81ba762088daea9edc7b275759e80a44235a7211c1527f3566660152ba2690196fface3ce8859632",
+          "sha256": "b734826fcf309f809c0f17793a2c29d128bee868f152b78576299f8857de6e87",
+          "sha1": "5a4b154e436c4e38b123f76c973612ce9d6c9d64",
+          "md5": "9e9fefd307b7031a40a0047fe7c5cab9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradm-api-datastore-4.0.0-beta01-sources.jar",
+          "url": "gradm-api-datastore-4.0.0-beta01-sources.jar",
+          "size": 7380,
+          "sha512": "76cd4ae6f1582a807311b08f0d6bf0a3c246d8b78e8c4ce643c6fb778161c28ae8cacadba1f7e018233e663f8cc4e96849807d8ef19a07357cfe365df535f518",
+          "sha256": "49a71e2c28ce84fcf4d9e5c6b658280acae5da9c52de66f70ef12013fae0ff27",
+          "sha1": "e35738735be5a9631305788a7fbc5148bfdc9d15",
+          "md5": "350fd0e75cf270f8e5db946608ea3b06"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradm-api-datastore-4.0.0-beta01-javadoc.jar",
+          "url": "gradm-api-datastore-4.0.0-beta01-javadoc.jar",
+          "size": 261,
+          "sha512": "08337b35aef98a844e22d955a2fefbe7439582c902243dfb1a829d5cddd2981634f43a6cc2974fe013f7d063c783ab04efad1249e4aaa2bba96efd01c5ca91c7",
+          "sha256": "1caefc97f3da9cdf759cd9cf27a0535be529815e5b815723e1b3e75e1ec5750c",
+          "sha1": "20367a4fdc10646e1731d635307249bb5c23a0a4",
+          "md5": "615da0e13ac6ef635abd6c19c8f32534"
+        }
+      ]
+    }
+  ]
+}

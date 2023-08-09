@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.gradm",
+    "module": "gradm-integration-runtime",
+    "version": "4.0.0-beta01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.gradm",
+          "module": "gradm-integration-api",
+          "version": {
+            "requires": "4.0.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradm-integration-runtime-4.0.0-beta01.jar",
+          "url": "gradm-integration-runtime-4.0.0-beta01.jar",
+          "size": 9919,
+          "sha512": "ecf6f82bc991f9e742ae66a7e942d7781fbcbddbe0a44c05ead3142ebded8bbb604cde55034bc37cfc3cbe44cee70490c780eda30d557b6731709e6a1d81d587",
+          "sha256": "b0f5fafbc3f1bc20891bd91c4c337510398eeb8a65e683146688d4a32adefc82",
+          "sha1": "0fea3af9af7885ef1b128674a6b67ac7f78e5e06",
+          "md5": "962cd95d391928a7cc3317c186237dff"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.gradm",
+          "module": "gradm-integration-api",
+          "version": {
+            "requires": "4.0.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradm-integration-runtime-4.0.0-beta01.jar",
+          "url": "gradm-integration-runtime-4.0.0-beta01.jar",
+          "size": 9919,
+          "sha512": "ecf6f82bc991f9e742ae66a7e942d7781fbcbddbe0a44c05ead3142ebded8bbb604cde55034bc37cfc3cbe44cee70490c780eda30d557b6731709e6a1d81d587",
+          "sha256": "b0f5fafbc3f1bc20891bd91c4c337510398eeb8a65e683146688d4a32adefc82",
+          "sha1": "0fea3af9af7885ef1b128674a6b67ac7f78e5e06",
+          "md5": "962cd95d391928a7cc3317c186237dff"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradm-integration-runtime-4.0.0-beta01-sources.jar",
+          "url": "gradm-integration-runtime-4.0.0-beta01-sources.jar",
+          "size": 3318,
+          "sha512": "d301746c5caed5a60ab162bb1379869a8f0fe20b076c22c49af1b7c03d12e08c1651afc4676f2fe69d84dfa649652cfdf41760228f64326df5bdf18d54e74711",
+          "sha256": "6959ed4a81ae42a7b4f54d11d1f119b8098a4f36a0fe6444011f5ca69044619f",
+          "sha1": "a584b2b22b6c37413b6eab73308263816cfffb73",
+          "md5": "337c7203a4254d93551b9ee2422b4811"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradm-integration-runtime-4.0.0-beta01-javadoc.jar",
+          "url": "gradm-integration-runtime-4.0.0-beta01-javadoc.jar",
+          "size": 261,
+          "sha512": "6c03909ec1eb7e9146f4f6d2a36fca81dfff95bb943e7fa395b76cc4bbea5f63729ba7d407c56fdfb32b770f53a3720bea465dd854b5b73aec240c8130e67e21",
+          "sha256": "963e1e9464c23a7e690518e45980ada02364f8e4f952f6e32b4cb702f6cb1375",
+          "sha1": "5e0f474ef440f07bf130de450a8d96c8638eabbe",
+          "md5": "887c2896273af2fee3df8777819266ca"
+        }
+      ]
+    }
+  ]
+}
