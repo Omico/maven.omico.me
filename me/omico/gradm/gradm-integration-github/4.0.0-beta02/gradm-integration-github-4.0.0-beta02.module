@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.gradm",
+    "module": "gradm-integration-github",
+    "version": "4.0.0-beta02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "gradm-integration-github-4.0.0-beta02.jar",
+          "url": "gradm-integration-github-4.0.0-beta02.jar",
+          "size": 30083,
+          "sha512": "1d70acd02b504875cec2f6674447ec841fc9d7dddfa41ad7c313ec0e347a47b7c3085b5b91bc0cebec5891f7892ba428fbd0d90ba1a15ca023bcaef678881cb9",
+          "sha256": "c2fe5be3abc3831e273e457b597f89fc7bf9137ce2e210c2a3398e2788952858",
+          "sha1": "498420bd2dc6d66cc4fd5c6be1fd03c2c00026f3",
+          "md5": "ec0e2279591ff7c661866f125f3b801e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradm-integration-github-4.0.0-beta02.jar",
+          "url": "gradm-integration-github-4.0.0-beta02.jar",
+          "size": 30083,
+          "sha512": "1d70acd02b504875cec2f6674447ec841fc9d7dddfa41ad7c313ec0e347a47b7c3085b5b91bc0cebec5891f7892ba428fbd0d90ba1a15ca023bcaef678881cb9",
+          "sha256": "c2fe5be3abc3831e273e457b597f89fc7bf9137ce2e210c2a3398e2788952858",
+          "sha1": "498420bd2dc6d66cc4fd5c6be1fd03c2c00026f3",
+          "md5": "ec0e2279591ff7c661866f125f3b801e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradm-integration-github-4.0.0-beta02-sources.jar",
+          "url": "gradm-integration-github-4.0.0-beta02-sources.jar",
+          "size": 6859,
+          "sha512": "8f82867267ffd2da956ffb409132debcc6f2e443a7f0a2af1fd08426ce4371eb5287919599d54abaf5e68b8cfbfeb88731e3171bd82b7097f04b6b3018cd5cf1",
+          "sha256": "41e7929e5c0d00e10a19348122e63d77126039d941ee7362b7949bbf200d3cc7",
+          "sha1": "d04c4b6f5f48bddd5597181a41350c0729ff9c20",
+          "md5": "87e22c703791bb8af93975b6dfd32b9a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradm-integration-github-4.0.0-beta02-javadoc.jar",
+          "url": "gradm-integration-github-4.0.0-beta02-javadoc.jar",
+          "size": 261,
+          "sha512": "3ecb60b49008f40c955dc0e2aab62787dfee47da413e6b8a7dd672c84e70eb7e01cb5ee845673ceb322642a921a1e0232c446df6ecc9597bb947ecd92d0d03f7",
+          "sha256": "cc91e0d0d0185af678ee6158d8a7c5bc582cf9c76fa8a90478fa311d48b9c530",
+          "sha1": "d7be612dbfd4f690aea54b278d65b8758c340be3",
+          "md5": "8b013c37e57db671a59d0af91a047d07"
+        }
+      ]
+    }
+  ]
+}

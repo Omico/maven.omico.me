@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.omico.gradm.integration.github</groupId>
+  <artifactId>me.omico.gradm.integration.github.gradle.plugin</artifactId>
+  <version>4.0.0-beta02</version>
+  <packaging>pom</packaging>
+  <name>Gradm GitHub integration</name>
+  <description>Gradm integration for GitHub.</description>
+  <url>https://github.com/Omico/Gradm</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Omico</id>
+      <name>Omico</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Omico/Gradm.git</connection>
+    <developerConnection>scm:git:https://github.com/Omico/Gradm.git</developerConnection>
+    <url>https://github.com/Omico/Gradm</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>me.omico.gradm</groupId>
+      <artifactId>gradm-integration-github</artifactId>
+      <version>4.0.0-beta02</version>
+    </dependency>
+  </dependencies>
+</project>

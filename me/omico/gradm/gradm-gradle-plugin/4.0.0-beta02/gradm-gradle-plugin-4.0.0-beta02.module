@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.gradm",
+    "module": "gradm-gradle-plugin",
+    "version": "4.0.0-beta02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "gradm-gradle-plugin-4.0.0-beta02.jar",
+          "url": "gradm-gradle-plugin-4.0.0-beta02.jar",
+          "size": 44735,
+          "sha512": "0b399fa130861ac95ee0b52475cd0bd4a92521b4c272e375f30822b428617b0e5ba90beeebb93b693db7023505f3bf74b3dcf2d194a662a1a173741a9ea2a5cb",
+          "sha256": "342c2f54eb2d3f9bd6d5b8ace41884185490f229fa058413b6c631483fce30ec",
+          "sha1": "ac36962965fd666b9ed749ba7911f1a130c220dd",
+          "md5": "82d3870b6a310ea96129dc1dd1f285f0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.gradm",
+          "module": "gradm-codegen",
+          "version": {
+            "requires": "4.0.0-beta02"
+          }
+        },
+        {
+          "group": "me.omico.gradm",
+          "module": "gradm-integration-runtime",
+          "version": {
+            "requires": "4.0.0-beta02"
+          }
+        },
+        {
+          "group": "me.omico.gradm",
+          "module": "gradm-runtime",
+          "version": {
+            "requires": "4.0.0-beta02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradm-gradle-plugin-4.0.0-beta02.jar",
+          "url": "gradm-gradle-plugin-4.0.0-beta02.jar",
+          "size": 44735,
+          "sha512": "0b399fa130861ac95ee0b52475cd0bd4a92521b4c272e375f30822b428617b0e5ba90beeebb93b693db7023505f3bf74b3dcf2d194a662a1a173741a9ea2a5cb",
+          "sha256": "342c2f54eb2d3f9bd6d5b8ace41884185490f229fa058413b6c631483fce30ec",
+          "sha1": "ac36962965fd666b9ed749ba7911f1a130c220dd",
+          "md5": "82d3870b6a310ea96129dc1dd1f285f0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradm-gradle-plugin-4.0.0-beta02-sources.jar",
+          "url": "gradm-gradle-plugin-4.0.0-beta02-sources.jar",
+          "size": 12282,
+          "sha512": "086a093035acb9a8460e6878ab49af3f3d0d07e52fd586fff0b29c20f377b3328df42b03272baab614821d8b61ebbea6b1429c692a14877e343f617bcd813d9b",
+          "sha256": "824273700be431ba5a03c3846a5e34bb2735986fcbfed39885bc15a19e107bae",
+          "sha1": "13cdf7e6532f59b028ae304f33ac7d4fd53aa576",
+          "md5": "1718945cbaf29b38ca4e615e0d1cc1d0"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradm-gradle-plugin-4.0.0-beta02-javadoc.jar",
+          "url": "gradm-gradle-plugin-4.0.0-beta02-javadoc.jar",
+          "size": 261,
+          "sha512": "5fc58070c092d7610bed2384ef46ce4427a392be07a9a51bf3c0b50ab8c8fa67012911203e144220897132922f5ce8b998fc66d2365481c35b734bcfa4d8294c",
+          "sha256": "2db4ea5b4b5b2b869afc6a01a31a87d75d48e21d33b3c1fd7ae1f7836a199665",
+          "sha1": "634e2c7afc710322944c5637dff549ff20ebf8e5",
+          "md5": "b71d1f73c26ae0a9e9fcdbde7a2224d7"
+        }
+      ]
+    }
+  ]
+}
