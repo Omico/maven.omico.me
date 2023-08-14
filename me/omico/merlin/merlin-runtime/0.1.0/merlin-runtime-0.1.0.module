@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.merlin",
+    "module": "merlin-runtime",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "merlin-runtime-0.1.0.jar",
+          "url": "merlin-runtime-0.1.0.jar",
+          "size": 17915,
+          "sha512": "8733f8a39ad1b804fdc27a879dda4235f0b1c5c5d23b3fddb0228a7846b1219da1aa4bc2c822fbde7f036e3865861408a8d8aecd1ca4a36e277d470e706b0911",
+          "sha256": "97ba2fcd1f8f63745c8f1bfdb7fb9f534db9a70c81151703c9e386db45273733",
+          "sha1": "9441f615eed301419a12f4b45ad11e50fcae982d",
+          "md5": "cb5e4ce84b1d52074b4363eb936caea9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "merlin-runtime-0.1.0.jar",
+          "url": "merlin-runtime-0.1.0.jar",
+          "size": 17915,
+          "sha512": "8733f8a39ad1b804fdc27a879dda4235f0b1c5c5d23b3fddb0228a7846b1219da1aa4bc2c822fbde7f036e3865861408a8d8aecd1ca4a36e277d470e706b0911",
+          "sha256": "97ba2fcd1f8f63745c8f1bfdb7fb9f534db9a70c81151703c9e386db45273733",
+          "sha1": "9441f615eed301419a12f4b45ad11e50fcae982d",
+          "md5": "cb5e4ce84b1d52074b4363eb936caea9"
+        }
+      ]
+    }
+  ]
+}
