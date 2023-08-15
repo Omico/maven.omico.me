@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.merlin",
+    "module": "merlin-runtime",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "merlin-runtime-0.3.0.jar",
+          "url": "merlin-runtime-0.3.0.jar",
+          "size": 28058,
+          "sha512": "6ee1dd8247fd790091c7721ecf977df0d5c6b669df89c20a8d78400fa7a97bbe538e59feeb096402dad65640f8f28331d3a0ea06be2bc780d3a8373a478c5746",
+          "sha256": "e5a9f7971e58c86833663ad9c5109a50d681911eaf39f65f4aff73e9d838cbe9",
+          "sha1": "f69c97996b83e7840a2bcd04383dde6a422dbddf",
+          "md5": "84f6b48781ee2a7cca47b018d86aa601"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "merlin-runtime-0.3.0.jar",
+          "url": "merlin-runtime-0.3.0.jar",
+          "size": 28058,
+          "sha512": "6ee1dd8247fd790091c7721ecf977df0d5c6b669df89c20a8d78400fa7a97bbe538e59feeb096402dad65640f8f28331d3a0ea06be2bc780d3a8373a478c5746",
+          "sha256": "e5a9f7971e58c86833663ad9c5109a50d681911eaf39f65f4aff73e9d838cbe9",
+          "sha1": "f69c97996b83e7840a2bcd04383dde6a422dbddf",
+          "md5": "84f6b48781ee2a7cca47b018d86aa601"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "merlin-runtime-0.3.0-sources.jar",
+          "url": "merlin-runtime-0.3.0-sources.jar",
+          "size": 2674,
+          "sha512": "ec72f55f53e71ab7a2a7f1ffb60e87ef9dada10ba69900c7b150a3a57d08c1b6527151ce08446a0e4f61765cafe2625b7e63f675af0ad49238c4b482e590a137",
+          "sha256": "dd29499eade33cf3f1ec4f875228ce7f8c0370f96f4197701a8cb1f2f3c55677",
+          "sha1": "0b83f9277a4362171a06776536862988094fb18f",
+          "md5": "f3bee4b1d1b0967dcde397f5af8db306"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "merlin-runtime-0.3.0-javadoc.jar",
+          "url": "merlin-runtime-0.3.0-javadoc.jar",
+          "size": 261,
+          "sha512": "66f3d032497a0a82c71857bb1b178c904da99f5202b7a75e82a3e9d87257b7754a717d19a0407965f331df5f7895fe2e710972706b2cf5d8321f8e06715e67f9",
+          "sha256": "4e379f56bfb79d3ba8a82605066bcaffa447a807d68d0ba418403b248253354e",
+          "sha1": "74008e3f3486a26508566a25ba11a11cd1e4b2de",
+          "md5": "a40b463fed4ba26fd1534cea58432b0a"
+        }
+      ]
+    }
+  ]
+}
