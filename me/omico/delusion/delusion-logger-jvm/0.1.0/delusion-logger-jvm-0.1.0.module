@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-logger/0.1.0/delusion-logger-0.1.0.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-logger",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-logger-jvm-0.1.0.jar",
+          "url": "delusion-logger-jvm-0.1.0.jar",
+          "size": 12905,
+          "sha512": "c1b521fcf10fd3fbe7e3416d20a73e547d6a533efc91a610f22cb8fc3c16c98b5058ee9d1785841faf1b68b30e250b45e4db0b289f2d187286d664e2d2ffa389",
+          "sha256": "e72ec289032748a49e9778e8828a5b404856fbefb9cda24c900932e1ba826668",
+          "sha1": "18a5d81b95fe02e6fe44b9c06be359a01c9b9c17",
+          "md5": "42f66861a0d987bbfc1b49bcd2a92956"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-logger-jvm-0.1.0.jar",
+          "url": "delusion-logger-jvm-0.1.0.jar",
+          "size": 12905,
+          "sha512": "c1b521fcf10fd3fbe7e3416d20a73e547d6a533efc91a610f22cb8fc3c16c98b5058ee9d1785841faf1b68b30e250b45e4db0b289f2d187286d664e2d2ffa389",
+          "sha256": "e72ec289032748a49e9778e8828a5b404856fbefb9cda24c900932e1ba826668",
+          "sha1": "18a5d81b95fe02e6fe44b9c06be359a01c9b9c17",
+          "md5": "42f66861a0d987bbfc1b49bcd2a92956"
+        }
+      ]
+    }
+  ]
+}

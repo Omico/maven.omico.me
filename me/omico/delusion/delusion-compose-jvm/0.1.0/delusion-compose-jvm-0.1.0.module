@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-compose/0.1.0/delusion-compose-0.1.0.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-compose",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-compose-jvm-0.1.0.jar",
+          "url": "delusion-compose-jvm-0.1.0.jar",
+          "size": 12054,
+          "sha512": "d9f23b4e0203a6a988cd0799efb5682a8efe006e0f885c1c14fafd5381c68a4b98b6ca96d49ff2ad2109647d4b1a59d959ec2a0ff4de6418c7e95e591e11edfa",
+          "sha256": "eb3a1144de6cb62ebf58e1106b649eff962c2cf0198ad9a6321ff6e1c6a7a142",
+          "sha1": "d935ea383379e59f0329e88ee42e208a4df835c1",
+          "md5": "60909ee22bd90a1e4cfa4510f8a695a6"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-compose-jvm-0.1.0.jar",
+          "url": "delusion-compose-jvm-0.1.0.jar",
+          "size": 12054,
+          "sha512": "d9f23b4e0203a6a988cd0799efb5682a8efe006e0f885c1c14fafd5381c68a4b98b6ca96d49ff2ad2109647d4b1a59d959ec2a0ff4de6418c7e95e591e11edfa",
+          "sha256": "eb3a1144de6cb62ebf58e1106b649eff962c2cf0198ad9a6321ff6e1c6a7a142",
+          "sha1": "d935ea383379e59f0329e88ee42e208a4df835c1",
+          "md5": "60909ee22bd90a1e4cfa4510f8a695a6"
+        }
+      ]
+    }
+  ]
+}
