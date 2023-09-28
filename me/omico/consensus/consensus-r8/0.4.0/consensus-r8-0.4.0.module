@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.consensus",
+    "module": "consensus-r8",
+    "version": "0.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "consensus-r8-0.4.0.jar",
+          "url": "consensus-r8-0.4.0.jar",
+          "size": 20780,
+          "sha512": "fb641bae9bb875f39865873bdcd58f91fa413ea22f0978c7de3c63c943e1595687ceaf44218744929e97dba3b4b473da55c6415281d8d2c64812a37f3f1e186b",
+          "sha256": "6eb4a18aaeb0393bdee1f812d4409b337db97fb820cf33100c8d083803eca859",
+          "sha1": "6d8b4ac15be70208d96d76c38e688ffe04771b78",
+          "md5": "9859be0f40c73bb0361fdbeacc1e4bb1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-api",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-dsl",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "com.android.tools",
+          "module": "r8",
+          "version": {
+            "requires": "8.1.56"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "consensus-r8-0.4.0.jar",
+          "url": "consensus-r8-0.4.0.jar",
+          "size": 20780,
+          "sha512": "fb641bae9bb875f39865873bdcd58f91fa413ea22f0978c7de3c63c943e1595687ceaf44218744929e97dba3b4b473da55c6415281d8d2c64812a37f3f1e186b",
+          "sha256": "6eb4a18aaeb0393bdee1f812d4409b337db97fb820cf33100c8d083803eca859",
+          "sha1": "6d8b4ac15be70208d96d76c38e688ffe04771b78",
+          "md5": "9859be0f40c73bb0361fdbeacc1e4bb1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.consensus",
+    "module": "consensus-dsl",
+    "version": "0.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-api",
+          "version": {
+            "requires": "0.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "consensus-dsl-0.4.0.jar",
+          "url": "consensus-dsl-0.4.0.jar",
+          "size": 10080,
+          "sha512": "ec8fceb0e8fff53df7d21a74f0c17477b195ee8df04e9b646fcd8683acd28b16fc4a9c4ccaea9149e9fa155f538367b1fd96f3611ff09684d622c7f474b4757f",
+          "sha256": "27b18ab99de679addeaee6376cf00339bc86ce85d3af3e53f3dd88a723bbbbef",
+          "sha1": "98cc53a68c9d5ae51d53fe1a9c2ae719cf45d1cd",
+          "md5": "99cd87746899429ec76a3e11c046c057"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-api",
+          "version": {
+            "requires": "0.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "consensus-dsl-0.4.0.jar",
+          "url": "consensus-dsl-0.4.0.jar",
+          "size": 10080,
+          "sha512": "ec8fceb0e8fff53df7d21a74f0c17477b195ee8df04e9b646fcd8683acd28b16fc4a9c4ccaea9149e9fa155f538367b1fd96f3611ff09684d622c7f474b4757f",
+          "sha256": "27b18ab99de679addeaee6376cf00339bc86ce85d3af3e53f3dd88a723bbbbef",
+          "sha1": "98cc53a68c9d5ae51d53fe1a9c2ae719cf45d1cd",
+          "md5": "99cd87746899429ec76a3e11c046c057"
+        }
+      ]
+    }
+  ]
+}
