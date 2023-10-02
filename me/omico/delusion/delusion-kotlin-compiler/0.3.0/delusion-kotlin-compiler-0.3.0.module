@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.delusion",
+    "module": "delusion-kotlin-compiler",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-kotlin-compiler-metadata-0.3.0.jar",
+          "url": "delusion-kotlin-compiler-0.3.0.jar",
+          "size": 674,
+          "sha512": "b2c2b29c88b1047a2abbf6397fccd0503db28f83abe7cd60a839f23c2f5ddfc1d25220871c14f3e54755b438102a7ea4614691d42d7fa4ef74461706af006d34",
+          "sha256": "19895b13bd40d94c56b453fa03865203a8077398718e118b4c2dec54457fff5e",
+          "sha1": "e4b74fd7153bc8c9070db85e13ba152d6dba447d",
+          "md5": "3c4c37b0710238fdab7553b55842806d"
+        }
+      ]
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "project.target.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../delusion-kotlin-compiler-jvm/0.3.0/delusion-kotlin-compiler-jvm-0.3.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-kotlin-compiler-jvm",
+        "version": "0.3.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "project.target.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../delusion-kotlin-compiler-jvm/0.3.0/delusion-kotlin-compiler-jvm-0.3.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-kotlin-compiler-jvm",
+        "version": "0.3.0"
+      }
+    }
+  ]
+}

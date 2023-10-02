@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-core/0.3.0/delusion-core-0.3.0.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-core",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "project.target.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-core-jvm-0.3.0.jar",
+          "url": "delusion-core-jvm-0.3.0.jar",
+          "size": 3000,
+          "sha512": "642c13f225987545733db6ec6d8e7f8624d7362dbd3b78e9ea95bf2f2df0f4a81b9143664a39c216958f5d0902d35664287a6140d2db26a6e5fe4315b7382d74",
+          "sha256": "3b8ceb4a2281aca5085e8fa031d1a65d2d2fae603a10ab3140db774d32c99c65",
+          "sha1": "c4e297c1edf42416592c2a00c9ba9449db4804d6",
+          "md5": "a45cb058e9d3d7335d5529384235baf7"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "project.target.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-core-jvm-0.3.0.jar",
+          "url": "delusion-core-jvm-0.3.0.jar",
+          "size": 3000,
+          "sha512": "642c13f225987545733db6ec6d8e7f8624d7362dbd3b78e9ea95bf2f2df0f4a81b9143664a39c216958f5d0902d35664287a6140d2db26a6e5fe4315b7382d74",
+          "sha256": "3b8ceb4a2281aca5085e8fa031d1a65d2d2fae603a10ab3140db774d32c99c65",
+          "sha1": "c4e297c1edf42416592c2a00c9ba9449db4804d6",
+          "md5": "a45cb058e9d3d7335d5529384235baf7"
+        }
+      ]
+    }
+  ]
+}
