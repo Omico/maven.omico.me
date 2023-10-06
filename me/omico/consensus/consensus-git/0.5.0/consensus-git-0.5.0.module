@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.consensus",
+    "module": "consensus-git",
+    "version": "0.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "consensus-git-0.5.0.jar",
+          "url": "consensus-git-0.5.0.jar",
+          "size": 23209,
+          "sha512": "41fe52889b59ea3106133b159121dd9b355781e37d0c6a8a809f6374e0ace1c00d09145b5b91913767ed0805f6d213806fe19bb642afebdc58bef3433aafe911",
+          "sha256": "79934e044f9834c1605d190add502a73981449b66ba4a5b74d63bdfa8e33c9e7",
+          "sha1": "ac6759339d00265270821a95a8ebf661f9f9f0ce",
+          "md5": "891e6fefcc6bae86b886b979509b5434"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-api",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-dsl",
+          "version": {
+            "requires": "0.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "consensus-git-0.5.0.jar",
+          "url": "consensus-git-0.5.0.jar",
+          "size": 23209,
+          "sha512": "41fe52889b59ea3106133b159121dd9b355781e37d0c6a8a809f6374e0ace1c00d09145b5b91913767ed0805f6d213806fe19bb642afebdc58bef3433aafe911",
+          "sha256": "79934e044f9834c1605d190add502a73981449b66ba4a5b74d63bdfa8e33c9e7",
+          "sha1": "ac6759339d00265270821a95a8ebf661f9f9f0ce",
+          "md5": "891e6fefcc6bae86b886b979509b5434"
+        }
+      ]
+    }
+  ]
+}

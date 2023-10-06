@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.omico.consensus.spotless</groupId>
+  <artifactId>me.omico.consensus.spotless.gradle.plugin</artifactId>
+  <version>0.5.0</version>
+  <packaging>pom</packaging>
+  <name>Consensus Spotless</name>
+  <description>Consensus Spotless</description>
+  <url>https://github.com/Omico</url>
+  <licenses>
+    <license>
+      <name>Copyright 2023 Omico. All Rights Reserved.</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Omico</id>
+      <name>Omico</name>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/Omico</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>me.omico.consensus</groupId>
+      <artifactId>consensus-spotless</artifactId>
+      <version>0.5.0</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,64 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.consensus",
+    "module": "consensus-api",
+    "version": "0.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "consensus-api-0.5.0.jar",
+          "url": "consensus-api-0.5.0.jar",
+          "size": 41843,
+          "sha512": "559954d27ff02a2ef46dbed5d2dbb83ff625c230f72feba75645261a3ad425a4b83735ab686bc95407d6934148e783fb3d2d51cf8c25715c59ab508449132355",
+          "sha256": "0a6533549e4b27b209d5cd550faab7b23d6e9feb2338f7a5ae7b6cdec991a557",
+          "sha1": "50c0adcf0cd0a73737beacc34fa40d444c3b4904",
+          "md5": "f48080b5f007486433117cb7426c812c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "consensus-api-0.5.0.jar",
+          "url": "consensus-api-0.5.0.jar",
+          "size": 41843,
+          "sha512": "559954d27ff02a2ef46dbed5d2dbb83ff625c230f72feba75645261a3ad425a4b83735ab686bc95407d6934148e783fb3d2d51cf8c25715c59ab508449132355",
+          "sha256": "0a6533549e4b27b209d5cd550faab7b23d6e9feb2338f7a5ae7b6cdec991a557",
+          "sha1": "50c0adcf0cd0a73737beacc34fa40d444c3b4904",
+          "md5": "f48080b5f007486433117cb7426c812c"
+        }
+      ]
+    }
+  ]
+}
