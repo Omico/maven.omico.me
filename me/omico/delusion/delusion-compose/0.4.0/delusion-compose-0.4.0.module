@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.delusion",
+    "module": "delusion-compose",
+    "version": "0.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-compose-metadata-0.4.0.jar",
+          "url": "delusion-compose-0.4.0.jar",
+          "size": 692,
+          "sha512": "ba003030593f9dfcad2c31309af72bc3f577d85dbab9988c7e73f94626fda36db85716ca2a67a2aa396b4fe498fd1ffa5e8969275d1caebd7172e5d00d3a9f4a",
+          "sha256": "b1c3faa7115835b321561a2e3bb756e4e83c291aa163a3f30810f3297f5fa04f",
+          "sha1": "83c0b2a7c65f2bae5fd380406f0c909815364d67",
+          "md5": "af6db91f19dd65200d5629b299126ee5"
+        }
+      ]
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "project.target.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../delusion-compose-jvm/0.4.0/delusion-compose-jvm-0.4.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-compose-jvm",
+        "version": "0.4.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "project.target.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../delusion-compose-jvm/0.4.0/delusion-compose-jvm-0.4.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-compose-jvm",
+        "version": "0.4.0"
+      }
+    }
+  ]
+}

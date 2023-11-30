@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-core/0.4.0/delusion-core-0.4.0.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-core",
+    "version": "0.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "project.target.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-core-jvm-0.4.0.jar",
+          "url": "delusion-core-jvm-0.4.0.jar",
+          "size": 3767,
+          "sha512": "c267faa7a533cc0e8cd663761bda3c6951da6661d845f65d8db39cc1e1d02a00b0f6d24ffeb8a42a1e3f4df1dac136be13e6a8690cda5aab4f66222ee8dbaf2e",
+          "sha256": "07ac2ad3b895bddb07b5ca96cdbf1fe8cf48306d57639777516cdfc6a09d08ea",
+          "sha1": "13b0dad9fe3ccfac50537169b79a4f2f742ed498",
+          "md5": "993c320654bd0caf5bf725cd833bdb66"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "project.target.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-core-jvm-0.4.0.jar",
+          "url": "delusion-core-jvm-0.4.0.jar",
+          "size": 3767,
+          "sha512": "c267faa7a533cc0e8cd663761bda3c6951da6661d845f65d8db39cc1e1d02a00b0f6d24ffeb8a42a1e3f4df1dac136be13e6a8690cda5aab4f66222ee8dbaf2e",
+          "sha256": "07ac2ad3b895bddb07b5ca96cdbf1fe8cf48306d57639777516cdfc6a09d08ea",
+          "sha1": "13b0dad9fe3ccfac50537169b79a4f2f742ed498",
+          "md5": "993c320654bd0caf5bf725cd833bdb66"
+        }
+      ]
+    }
+  ]
+}
