@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-kotlin-compiler-embeddable/0.5.0/delusion-kotlin-compiler-embeddable-0.5.0.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-kotlin-compiler-embeddable",
+    "version": "0.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "project.target.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.delusion",
+          "module": "delusion-kotlin-compiler",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-kotlin-compiler-embeddable-jvm-0.5.0.jar",
+          "url": "delusion-kotlin-compiler-embeddable-jvm-0.5.0.jar",
+          "size": 23305,
+          "sha512": "58be9c830cd5f49f29ce5a00833e9636750226b9b26077f0b73c7b0ad4d1b1a5999f7052ef3ab13dc217f044a7ba0553758c69780b9cf94cd00e7a8d9e382bfc",
+          "sha256": "0cea5b58c92174d27aa65f56835cc208511091c7f030c2006073df89d401f765",
+          "sha1": "598bee5e7012a2e9d0c7cf9606bd0896af8c4852",
+          "md5": "07c60be388805f788ddabc2d3159c972"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "project.target.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.delusion",
+          "module": "delusion-kotlin-compiler",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-kotlin-compiler-embeddable-jvm-0.5.0.jar",
+          "url": "delusion-kotlin-compiler-embeddable-jvm-0.5.0.jar",
+          "size": 23305,
+          "sha512": "58be9c830cd5f49f29ce5a00833e9636750226b9b26077f0b73c7b0ad4d1b1a5999f7052ef3ab13dc217f044a7ba0553758c69780b9cf94cd00e7a8d9e382bfc",
+          "sha256": "0cea5b58c92174d27aa65f56835cc208511091c7f030c2006073df89d401f765",
+          "sha1": "598bee5e7012a2e9d0c7cf9606bd0896af8c4852",
+          "md5": "07c60be388805f788ddabc2d3159c972"
+        }
+      ]
+    }
+  ]
+}

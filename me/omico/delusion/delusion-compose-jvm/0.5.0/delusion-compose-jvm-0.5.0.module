@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-compose/0.5.0/delusion-compose-0.5.0.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-compose",
+    "version": "0.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "project.target.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-compose-jvm-0.5.0.jar",
+          "url": "delusion-compose-jvm-0.5.0.jar",
+          "size": 11951,
+          "sha512": "eece21ade27eb2c49f2c894d43c9b63055ca63cb92976c9f6300c4edcf64aa2f35520b34c12ab6b0f40f9f5eb1d73c92328f1adda8829149cccd0102b4797808",
+          "sha256": "9e141ae4652265dac07649200960953535ff1fccdb3d5c7581cccf229b8548ed",
+          "sha1": "78cd8fb48195a0a90ab222bd0d843003731d2557",
+          "md5": "0c5bc23c272d1ab95040d65419cb2db0"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "project.target.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-compose-jvm-0.5.0.jar",
+          "url": "delusion-compose-jvm-0.5.0.jar",
+          "size": 11951,
+          "sha512": "eece21ade27eb2c49f2c894d43c9b63055ca63cb92976c9f6300c4edcf64aa2f35520b34c12ab6b0f40f9f5eb1d73c92328f1adda8829149cccd0102b4797808",
+          "sha256": "9e141ae4652265dac07649200960953535ff1fccdb3d5c7581cccf229b8548ed",
+          "sha1": "78cd8fb48195a0a90ab222bd0d843003731d2557",
+          "md5": "0c5bc23c272d1ab95040d65419cb2db0"
+        }
+      ]
+    }
+  ]
+}
