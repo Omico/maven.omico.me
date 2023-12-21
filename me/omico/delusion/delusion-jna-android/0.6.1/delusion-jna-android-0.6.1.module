@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-jna/0.6.1/delusion-jna-0.6.1.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-jna",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-jna-release.aar",
+          "url": "delusion-jna-android-0.6.1.aar",
+          "size": 780,
+          "sha512": "ba597fc1e05b7a7ead8202385477d9bb1abd40a156cbb7deaedfab2874c03fc7ef53c595e5c20ef564476ee005ff2c39de6addaa46aeacdba4b0c8fd143671f8",
+          "sha256": "3b7aa8e22ab327524d49531745acc0f212ae5e40e426908ae0b0d729139956a3",
+          "sha1": "64670bf90d74b83f9810da94ecf28bf376d660df",
+          "md5": "38e2bd326f40127fed92334819068d29"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-jna-release.aar",
+          "url": "delusion-jna-android-0.6.1.aar",
+          "size": 780,
+          "sha512": "ba597fc1e05b7a7ead8202385477d9bb1abd40a156cbb7deaedfab2874c03fc7ef53c595e5c20ef564476ee005ff2c39de6addaa46aeacdba4b0c8fd143671f8",
+          "sha256": "3b7aa8e22ab327524d49531745acc0f212ae5e40e426908ae0b0d729139956a3",
+          "sha1": "64670bf90d74b83f9810da94ecf28bf376d660df",
+          "md5": "38e2bd326f40127fed92334819068d29"
+        }
+      ]
+    }
+  ]
+}

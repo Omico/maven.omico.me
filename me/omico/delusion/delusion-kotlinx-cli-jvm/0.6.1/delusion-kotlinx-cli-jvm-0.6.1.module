@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-kotlinx-cli/0.6.1/delusion-kotlinx-cli-0.6.1.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-kotlinx-cli",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-kotlinx-cli-jvm-0.6.1.jar",
+          "url": "delusion-kotlinx-cli-jvm-0.6.1.jar",
+          "size": 3308,
+          "sha512": "6ee0842d4112501e43a6d9d718e5681d0695e8a96fccc8367b942ea347d5c1edb2910755de5b2196806e22ab5aa1473d41bfec491afa8aa750f0fad0d8344eeb",
+          "sha256": "ac14ffec5d4f813643cbb0e855a025bc6bd0cd16fd3ed35b05adb1a263927a8c",
+          "sha1": "6a62f31741b5de35940212897ede1050375f5dcf",
+          "md5": "95cc972ca5b504e7a6c1c10d4837c0fd"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-kotlinx-cli-jvm-0.6.1.jar",
+          "url": "delusion-kotlinx-cli-jvm-0.6.1.jar",
+          "size": 3308,
+          "sha512": "6ee0842d4112501e43a6d9d718e5681d0695e8a96fccc8367b942ea347d5c1edb2910755de5b2196806e22ab5aa1473d41bfec491afa8aa750f0fad0d8344eeb",
+          "sha256": "ac14ffec5d4f813643cbb0e855a025bc6bd0cd16fd3ed35b05adb1a263927a8c",
+          "sha1": "6a62f31741b5de35940212897ede1050375f5dcf",
+          "md5": "95cc972ca5b504e7a6c1c10d4837c0fd"
+        }
+      ]
+    }
+  ]
+}

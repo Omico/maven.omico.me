@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-kotlinx-datetime/0.6.1/delusion-kotlinx-datetime-0.6.1.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-kotlinx-datetime",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-kotlinx-datetime-jvm-0.6.1.jar",
+          "url": "delusion-kotlinx-datetime-jvm-0.6.1.jar",
+          "size": 2994,
+          "sha512": "421e26f8642730c274bce472155aa180f849d2d76471c59464ea6c4ae559e8a45de94cf8335a1cd348838a449572c8ce1956858012acac63baa64110ea764d45",
+          "sha256": "32a2e39beb24a28887e1431d9d1b1ca174ddee4b12013e3568f0f73159021135",
+          "sha1": "754bf2f311c265d9384dcdebdf02ff1f9dd5aa47",
+          "md5": "bf915f819187de9f94ca15b9a30a9e7f"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-kotlinx-datetime-jvm-0.6.1.jar",
+          "url": "delusion-kotlinx-datetime-jvm-0.6.1.jar",
+          "size": 2994,
+          "sha512": "421e26f8642730c274bce472155aa180f849d2d76471c59464ea6c4ae559e8a45de94cf8335a1cd348838a449572c8ce1956858012acac63baa64110ea764d45",
+          "sha256": "32a2e39beb24a28887e1431d9d1b1ca174ddee4b12013e3568f0f73159021135",
+          "sha1": "754bf2f311c265d9384dcdebdf02ff1f9dd5aa47",
+          "md5": "bf915f819187de9f94ca15b9a30a9e7f"
+        }
+      ]
+    }
+  ]
+}

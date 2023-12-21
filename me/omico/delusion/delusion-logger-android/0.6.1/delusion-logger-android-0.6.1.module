@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-logger/0.6.1/delusion-logger-0.6.1.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-logger",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-logger-release.aar",
+          "url": "delusion-logger-android-0.6.1.aar",
+          "size": 13000,
+          "sha512": "c4c00f90582e10af5d98aea68fdd459ae610f4c090fef030644a3144cb6c5491dfd1bbfc9b9601ea1f57672002c3ab9afbd7c23cdd4b0e3346fada7447e8084a",
+          "sha256": "cc47953977c0ec00f416c4e68275896f9fbdfb0e347aee284d14aa59575fb6c7",
+          "sha1": "29c205d22e1b381fa7a5ee9159a34032d10c2b65",
+          "md5": "7a00b91316284da218e4700525ead5e7"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-logger-release.aar",
+          "url": "delusion-logger-android-0.6.1.aar",
+          "size": 13000,
+          "sha512": "c4c00f90582e10af5d98aea68fdd459ae610f4c090fef030644a3144cb6c5491dfd1bbfc9b9601ea1f57672002c3ab9afbd7c23cdd4b0e3346fada7447e8084a",
+          "sha256": "cc47953977c0ec00f416c4e68275896f9fbdfb0e347aee284d14aa59575fb6c7",
+          "sha1": "29c205d22e1b381fa7a5ee9159a34032d10c2b65",
+          "md5": "7a00b91316284da218e4700525ead5e7"
+        }
+      ]
+    }
+  ]
+}
