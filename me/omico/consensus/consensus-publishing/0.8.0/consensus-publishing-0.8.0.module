@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.consensus",
+    "module": "consensus-publishing",
+    "version": "0.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "consensus-publishing-0.8.0.jar",
+          "url": "consensus-publishing-0.8.0.jar",
+          "size": 36757,
+          "sha512": "0f04db2d0db3b8b61e3ce4f6209e2af1e792eb62cf8ef57cc2432cfc59a2ae7518fbd5c4b3c3054e8d17d9bc6afddb00a4bd4a0ec557ea544f30726f310d4344",
+          "sha256": "b3d4e2fd995abf6fa8952232cd2490cc501ccbd25f18f8252a66713be12db339",
+          "sha1": "6212857de591f65e02ab2b968ff4f388b8615c7b",
+          "md5": "c1d7e3a7975b41b22736466645d83bf2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-api",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-dsl",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "consensus-publishing-0.8.0.jar",
+          "url": "consensus-publishing-0.8.0.jar",
+          "size": 36757,
+          "sha512": "0f04db2d0db3b8b61e3ce4f6209e2af1e792eb62cf8ef57cc2432cfc59a2ae7518fbd5c4b3c3054e8d17d9bc6afddb00a4bd4a0ec557ea544f30726f310d4344",
+          "sha256": "b3d4e2fd995abf6fa8952232cd2490cc501ccbd25f18f8252a66713be12db339",
+          "sha1": "6212857de591f65e02ab2b968ff4f388b8615c7b",
+          "md5": "c1d7e3a7975b41b22736466645d83bf2"
+        }
+      ]
+    }
+  ]
+}
