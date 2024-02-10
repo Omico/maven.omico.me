@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.consensus",
+    "module": "consensus-spotless",
+    "version": "0.9.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "consensus-spotless-0.9.0.jar",
+          "url": "consensus-spotless-0.9.0.jar",
+          "size": 32837,
+          "sha512": "363f2faaae251770c9e3278e651f22fe8c84f66269f7b6bc9f7fe04c7472f2b73a6bf937da373f3739dd30f4b80bf61d4875a82f7bbfc1024ecd7e45647a84d0",
+          "sha256": "5ec15ce54d15e6cd4f50b5888c2be9fcdc6629cfb61279e1bdeb9e3b7cca857b",
+          "sha1": "b29fad9b14503f53f107d7c5e5795a17f48719b2",
+          "md5": "6de2e8fc81ab0d79f58494652caaaeff"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-api",
+          "version": {
+            "requires": "0.9.0"
+          }
+        },
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-dsl",
+          "version": {
+            "requires": "0.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "consensus-spotless-0.9.0.jar",
+          "url": "consensus-spotless-0.9.0.jar",
+          "size": 32837,
+          "sha512": "363f2faaae251770c9e3278e651f22fe8c84f66269f7b6bc9f7fe04c7472f2b73a6bf937da373f3739dd30f4b80bf61d4875a82f7bbfc1024ecd7e45647a84d0",
+          "sha256": "5ec15ce54d15e6cd4f50b5888c2be9fcdc6629cfb61279e1bdeb9e3b7cca857b",
+          "sha1": "b29fad9b14503f53f107d7c5e5795a17f48719b2",
+          "md5": "6de2e8fc81ab0d79f58494652caaaeff"
+        }
+      ]
+    }
+  ]
+}
