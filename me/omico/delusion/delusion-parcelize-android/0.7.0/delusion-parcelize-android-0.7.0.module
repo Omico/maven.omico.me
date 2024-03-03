@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-parcelize/0.7.0/delusion-parcelize-0.7.0.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-parcelize",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-parcelize-release.aar",
+          "url": "delusion-parcelize-android-0.7.0.aar",
+          "size": 3945,
+          "sha512": "549d08ff383498fbe33be700e649fed5441d6c7c84496b763121806b1ae66c0baba1fe678466d3036af08a9bf8c62ef2a5fa27a524cb568654a6b6ef6b163f81",
+          "sha256": "c6fbf8dad4898dc83277e0e6a291896abb81d7ac5d9346a9fd6ced85a10ad611",
+          "sha1": "0bb6d4c851a049dd89722449f48af1f8969f0f7b",
+          "md5": "f691c8fbc2806e6f1804ea2db4413aff"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.9.22"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-parcelize-release.aar",
+          "url": "delusion-parcelize-android-0.7.0.aar",
+          "size": 3945,
+          "sha512": "549d08ff383498fbe33be700e649fed5441d6c7c84496b763121806b1ae66c0baba1fe678466d3036af08a9bf8c62ef2a5fa27a524cb568654a6b6ef6b163f81",
+          "sha256": "c6fbf8dad4898dc83277e0e6a291896abb81d7ac5d9346a9fd6ced85a10ad611",
+          "sha1": "0bb6d4c851a049dd89722449f48af1f8969f0f7b",
+          "md5": "f691c8fbc2806e6f1804ea2db4413aff"
+        }
+      ]
+    }
+  ]
+}

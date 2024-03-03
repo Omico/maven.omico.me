@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-compose/0.7.0/delusion-compose-0.7.0.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-compose",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-compose-desktop-0.7.0.jar",
+          "url": "delusion-compose-desktop-0.7.0.jar",
+          "size": 31726,
+          "sha512": "cea40b6ec6ef4dc1f49fa44ff904f042e005af44cab0452d8b43b2c1391d39e32f1e8272e8ec20a106d920a321e10de8c4ef2efe38fd75dfbdfae5c3fd510169",
+          "sha256": "393e6414a66003075092e5ebe9a3566829347e0da8506189500868849e908f5f",
+          "sha1": "124b1500ccf37441e52a424b048be68ac1f3c5e3",
+          "md5": "1f07daecb6cbb3e4ebda752b5f9dab98"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "me.omico.delusion",
+          "module": "delusion-core",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "me.omico.delusion",
+          "module": "delusion-jna",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "com.github.hypfvieh",
+          "module": "dbus-java-core",
+          "version": {
+            "requires": "5.0.0"
+          }
+        },
+        {
+          "group": "com.github.hypfvieh",
+          "module": "dbus-java-transport-junixsocket",
+          "version": {
+            "requires": "5.0.0"
+          }
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna-platform",
+          "version": {
+            "requires": "5.14.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-compose-desktop-0.7.0.jar",
+          "url": "delusion-compose-desktop-0.7.0.jar",
+          "size": 31726,
+          "sha512": "cea40b6ec6ef4dc1f49fa44ff904f042e005af44cab0452d8b43b2c1391d39e32f1e8272e8ec20a106d920a321e10de8c4ef2efe38fd75dfbdfae5c3fd510169",
+          "sha256": "393e6414a66003075092e5ebe9a3566829347e0da8506189500868849e908f5f",
+          "sha1": "124b1500ccf37441e52a424b048be68ac1f3c5e3",
+          "md5": "1f07daecb6cbb3e4ebda752b5f9dab98"
+        }
+      ]
+    }
+  ]
+}

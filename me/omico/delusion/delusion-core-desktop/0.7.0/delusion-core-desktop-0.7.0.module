@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-core/0.7.0/delusion-core-0.7.0.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-core",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-core-desktop-0.7.0.jar",
+          "url": "delusion-core-desktop-0.7.0.jar",
+          "size": 9206,
+          "sha512": "dfbda856c6144e86188309544626084e9d5cb35a06d485f66510100dbc76d899d7fec67ca64d6da2bf58012148650d9bf6aef784d047f810307fd67a9ebfa40c",
+          "sha256": "61eb7ead3ad3eef6ab68110554556f1d1eb45f0b30b04df23e8d8b325dc090a8",
+          "sha1": "87e7840d77ff4c5993883a6ed00e76237add3a68",
+          "md5": "47b86674c0186e41de1b24c5244aee54"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-core-desktop-0.7.0.jar",
+          "url": "delusion-core-desktop-0.7.0.jar",
+          "size": 9206,
+          "sha512": "dfbda856c6144e86188309544626084e9d5cb35a06d485f66510100dbc76d899d7fec67ca64d6da2bf58012148650d9bf6aef784d047f810307fd67a9ebfa40c",
+          "sha256": "61eb7ead3ad3eef6ab68110554556f1d1eb45f0b30b04df23e8d8b325dc090a8",
+          "sha1": "87e7840d77ff4c5993883a6ed00e76237add3a68",
+          "md5": "47b86674c0186e41de1b24c5244aee54"
+        }
+      ]
+    }
+  ]
+}

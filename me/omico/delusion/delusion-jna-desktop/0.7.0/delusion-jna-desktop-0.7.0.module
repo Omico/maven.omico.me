@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-jna/0.7.0/delusion-jna-0.7.0.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-jna",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-jna-desktop-0.7.0.jar",
+          "url": "delusion-jna-desktop-0.7.0.jar",
+          "size": 11866,
+          "sha512": "bc634e71b42b9b471411a2efcac61f0012d00b398ac7b1fe624f9cb34f190151b8ac2f87f885e72596992bbf05319517ee850d16caa3258c4b3627d3e4e5b0fd",
+          "sha256": "5b5b16b43dc074b7d546909a2cc74e76025047e63d03a69a0156eb29f60686ce",
+          "sha1": "16cbc6f0e18ccdc10391196fbee3ea5f92b8a0da",
+          "md5": "58e7c81523a3fb52925ce2a5d45703ce"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "me.omico.delusion",
+          "module": "delusion-core",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna-platform",
+          "version": {
+            "requires": "5.14.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-jna-desktop-0.7.0.jar",
+          "url": "delusion-jna-desktop-0.7.0.jar",
+          "size": 11866,
+          "sha512": "bc634e71b42b9b471411a2efcac61f0012d00b398ac7b1fe624f9cb34f190151b8ac2f87f885e72596992bbf05319517ee850d16caa3258c4b3627d3e4e5b0fd",
+          "sha256": "5b5b16b43dc074b7d546909a2cc74e76025047e63d03a69a0156eb29f60686ce",
+          "sha1": "16cbc6f0e18ccdc10391196fbee3ea5f92b8a0da",
+          "md5": "58e7c81523a3fb52925ce2a5d45703ce"
+        }
+      ]
+    }
+  ]
+}

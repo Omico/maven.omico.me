@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-compose/0.7.0/delusion-compose-0.7.0.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-compose",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-compose-release.aar",
+          "url": "delusion-compose-android-0.7.0.aar",
+          "size": 11267,
+          "sha512": "8258bc7617fc2c3d8fd140ea3b98f0cddd367f9b38a3f65c4cdb602614215d812c556664f8dad5d3cc61b247c01e35ffc88dfba2080de4388ef60de5017b602e",
+          "sha256": "63259f4f0dec331011ae8c1b099ee9505951b7024dc8cfc022ebd8f7d9538cca",
+          "sha1": "447a5fefe3145c97f1d18cbeee1280a5466c88f4",
+          "md5": "f6ceaa8d34ee5ba4ed349993e6ee0afc"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-compose-release.aar",
+          "url": "delusion-compose-android-0.7.0.aar",
+          "size": 11267,
+          "sha512": "8258bc7617fc2c3d8fd140ea3b98f0cddd367f9b38a3f65c4cdb602614215d812c556664f8dad5d3cc61b247c01e35ffc88dfba2080de4388ef60de5017b602e",
+          "sha256": "63259f4f0dec331011ae8c1b099ee9505951b7024dc8cfc022ebd8f7d9538cca",
+          "sha1": "447a5fefe3145c97f1d18cbeee1280a5466c88f4",
+          "md5": "f6ceaa8d34ee5ba4ed349993e6ee0afc"
+        }
+      ]
+    }
+  ]
+}

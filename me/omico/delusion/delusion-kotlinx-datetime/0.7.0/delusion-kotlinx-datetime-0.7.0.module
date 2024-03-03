@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.delusion",
+    "module": "delusion-kotlinx-datetime",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-kotlinx-datetime-metadata-0.7.0.jar",
+          "url": "delusion-kotlinx-datetime-0.7.0.jar",
+          "size": 648,
+          "sha512": "ccd1cbc2948fe10f555eb14231a52e83c8552922901a386e84f6b1de07ce7cff6e98f263cfd6dc67c5a453e444ed1b45520e327cc033608336febc03caa11cfd",
+          "sha256": "10eee6ab636ce473f27f00c4a1f1793fdc436f87134d3e4e14c76f61f81ddd59",
+          "sha1": "1845ddf2a9068ab8381c5b5f932e4aef59116bc8",
+          "md5": "96b5ca74b978ba0f90bf4003bb62b2ac"
+        }
+      ]
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../delusion-kotlinx-datetime-desktop/0.7.0/delusion-kotlinx-datetime-desktop-0.7.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-kotlinx-datetime-desktop",
+        "version": "0.7.0"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../delusion-kotlinx-datetime-desktop/0.7.0/delusion-kotlinx-datetime-desktop-0.7.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-kotlinx-datetime-desktop",
+        "version": "0.7.0"
+      }
+    }
+  ]
+}

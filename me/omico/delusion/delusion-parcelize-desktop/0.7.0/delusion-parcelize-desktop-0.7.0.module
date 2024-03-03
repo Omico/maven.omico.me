@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-parcelize/0.7.0/delusion-parcelize-0.7.0.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-parcelize",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-parcelize-desktop-0.7.0.jar",
+          "url": "delusion-parcelize-desktop-0.7.0.jar",
+          "size": 5615,
+          "sha512": "354af31975e1bc590c20e28a551bd4e619f2d9e68fdce265c2a44ab70f81d047e5b1f74e975178d9e0c98b1617706883bcac422d8bfb8879be780b1cefe478a6",
+          "sha256": "5e119a7cdd4b44ee5c105c4bb0f488b3870ef1c8d4a7fb2d66a4b0fd42a472f3",
+          "sha1": "adc30332293f6b6668e95237ca9dd7c79fb245fb",
+          "md5": "d76340d4ac4a42c698d692722183fd54"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-parcelize-desktop-0.7.0.jar",
+          "url": "delusion-parcelize-desktop-0.7.0.jar",
+          "size": 5615,
+          "sha512": "354af31975e1bc590c20e28a551bd4e619f2d9e68fdce265c2a44ab70f81d047e5b1f74e975178d9e0c98b1617706883bcac422d8bfb8879be780b1cefe478a6",
+          "sha256": "5e119a7cdd4b44ee5c105c4bb0f488b3870ef1c8d4a7fb2d66a4b0fd42a472f3",
+          "sha1": "adc30332293f6b6668e95237ca9dd7c79fb245fb",
+          "md5": "d76340d4ac4a42c698d692722183fd54"
+        }
+      ]
+    }
+  ]
+}

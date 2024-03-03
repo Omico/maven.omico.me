@@ -1,0 +1,134 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.delusion",
+    "module": "delusion-logger",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-logger-metadata-0.7.0.jar",
+          "url": "delusion-logger-0.7.0.jar",
+          "size": 718,
+          "sha512": "35173d2566430c26542c108b3e57184bcecba2dc68c89a00dc5770f7f53630897812079d2483d46845a07ca563bcb9e9699f9941dac9f4bdff52ad64169317dd",
+          "sha256": "9985df01403c27ce549f775bd7b96e359436e3aaae3c9f97b1cb9aa10150ba3e",
+          "sha1": "576e703a703d1a28e16b428ecfbeb8dcbb4bbb2f",
+          "md5": "57b9562e8f2130a14d35a8a5f8f0e3fd"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../delusion-logger-android-debug/0.7.0/delusion-logger-android-debug-0.7.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-logger-android-debug",
+        "version": "0.7.0"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../delusion-logger-android-debug/0.7.0/delusion-logger-android-debug-0.7.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-logger-android-debug",
+        "version": "0.7.0"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../delusion-logger-android/0.7.0/delusion-logger-android-0.7.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-logger-android",
+        "version": "0.7.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../delusion-logger-android/0.7.0/delusion-logger-android-0.7.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-logger-android",
+        "version": "0.7.0"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../delusion-logger-desktop/0.7.0/delusion-logger-desktop-0.7.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-logger-desktop",
+        "version": "0.7.0"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../delusion-logger-desktop/0.7.0/delusion-logger-desktop-0.7.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-logger-desktop",
+        "version": "0.7.0"
+      }
+    }
+  ]
+}
