@@ -1,0 +1,62 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.omico.fonts",
+    "module": "fonts-noto-sans-cjk-sc",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "fonts-noto-sans-cjk-sc-0.2.0.jar",
+          "url": "fonts-noto-sans-cjk-sc-0.2.0.jar",
+          "size": 56139760,
+          "sha512": "2c0e0d6b2b9beafce17e7418a8ac8a780b2a08bd4b7204988196740611f8640e7e4bbf693fc1b7650af9585fd065b33569f4abd9f2e1e2c2ee312af3de3e81a1",
+          "sha256": "292f903a3bbcaea4402aed0e4c273b3a80f6b10fa6c870f182c81fb303f6e703",
+          "sha1": "7896857256353b9dbd26a4c78d6d7f0afff45c44",
+          "md5": "380981f3757545a84b19815a0e484a4a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "fonts-noto-sans-cjk-sc-0.2.0.jar",
+          "url": "fonts-noto-sans-cjk-sc-0.2.0.jar",
+          "size": 56139760,
+          "sha512": "2c0e0d6b2b9beafce17e7418a8ac8a780b2a08bd4b7204988196740611f8640e7e4bbf693fc1b7650af9585fd065b33569f4abd9f2e1e2c2ee312af3de3e81a1",
+          "sha256": "292f903a3bbcaea4402aed0e4c273b3a80f6b10fa6c870f182c81fb303f6e703",
+          "sha1": "7896857256353b9dbd26a4c78d6d7f0afff45c44",
+          "md5": "380981f3757545a84b19815a0e484a4a"
+        }
+      ]
+    }
+  ]
+}
