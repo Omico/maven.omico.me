@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.omico.fonts",
+    "module": "fonts-noto-sans-cjk",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.omico.fonts",
+          "module": "fonts-noto-sans-cjk-sc",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fonts-noto-sans-cjk-0.1.0.jar",
+          "url": "fonts-noto-sans-cjk-0.1.0.jar",
+          "size": 261,
+          "sha512": "e24e54beaa21083d140da919cdfa0ce6b4c17c9d160011cd95e9c3453a83dc8558b240d7d7089c842fd88361ba7a023611c85ba08b91ad37ebc37e10f09bfb4c",
+          "sha256": "1647c04689ea1d64cb7f5233eb02d421e889da3bde5da1cf1e97fc06c132caca",
+          "sha1": "5bdd70674fa056ea83c6a29b071a3f4f72fd0052",
+          "md5": "9a786510b37b02d1ae7fdf7736e7670b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.omico.fonts",
+          "module": "fonts-noto-sans-cjk-sc",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fonts-noto-sans-cjk-0.1.0.jar",
+          "url": "fonts-noto-sans-cjk-0.1.0.jar",
+          "size": 261,
+          "sha512": "e24e54beaa21083d140da919cdfa0ce6b4c17c9d160011cd95e9c3453a83dc8558b240d7d7089c842fd88361ba7a023611c85ba08b91ad37ebc37e10f09bfb4c",
+          "sha256": "1647c04689ea1d64cb7f5233eb02d421e889da3bde5da1cf1e97fc06c132caca",
+          "sha1": "5bdd70674fa056ea83c6a29b071a3f4f72fd0052",
+          "md5": "9a786510b37b02d1ae7fdf7736e7670b"
+        }
+      ]
+    }
+  ]
+}
