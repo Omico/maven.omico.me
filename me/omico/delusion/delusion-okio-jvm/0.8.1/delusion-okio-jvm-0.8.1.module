@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-okio/0.8.1/delusion-okio-0.8.1.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-okio",
+    "version": "0.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-okio-jvm-0.8.1.jar",
+          "url": "delusion-okio-jvm-0.8.1.jar",
+          "size": 6935,
+          "sha512": "70771a9cce87aab4e9e31e29c92bbe1d98b16def8484172d72f1b16d80f5289bad94d732c89ebb40a157e85a474c4515ad114f9bb049f1719e3977f280ba8f9c",
+          "sha256": "4eb65629671666b8eded36cea14fffdae6b6cef67bac48905bb1d490960042a5",
+          "sha1": "765d66a8942a9220540a8f2be8dcea75569eb23a",
+          "md5": "da22e372e3b4e01420a1b1035d140870"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-okio-jvm-0.8.1.jar",
+          "url": "delusion-okio-jvm-0.8.1.jar",
+          "size": 6935,
+          "sha512": "70771a9cce87aab4e9e31e29c92bbe1d98b16def8484172d72f1b16d80f5289bad94d732c89ebb40a157e85a474c4515ad114f9bb049f1719e3977f280ba8f9c",
+          "sha256": "4eb65629671666b8eded36cea14fffdae6b6cef67bac48905bb1d490960042a5",
+          "sha1": "765d66a8942a9220540a8f2be8dcea75569eb23a",
+          "md5": "da22e372e3b4e01420a1b1035d140870"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-okio/0.8.1/delusion-okio-0.8.1.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-okio",
+    "version": "0.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-okio.klib",
+          "url": "delusion-okio-mingwx64-0.8.1.klib",
+          "size": 11758,
+          "sha512": "516d7ea8d16c543b547d1433969d1ee285721901cb4f2970daefb91c43a33ab2b12b59aaf9addc0fa964102f5b10f758e36195bc018a8f30e0f729f03178cafc",
+          "sha256": "92c6d415f084fa7685e991283dad5f5719dd8bdf519e32908d63dd7770516bca",
+          "sha1": "5accd4dc991be62e9b2bc369e13113289a99a861",
+          "md5": "7bbaf158619f52e5641d114ff69fccb3"
+        }
+      ]
+    }
+  ]
+}
