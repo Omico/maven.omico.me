@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.delusion",
+    "module": "delusion-jna",
+    "version": "0.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-jna-metadata-0.8.0.jar",
+          "url": "delusion-jna-0.8.0.jar",
+          "size": 671,
+          "sha512": "a6c06d27a03b0a5ab24d92655052669873899fa3096cb7aee268618dfa13c4d25eff2335bfe47bd98d6fb7f08b13f3f12d099feb2634221a7e7f7fc6998da63d",
+          "sha256": "4d53a40a4daf74c2961bf2d391c78b06ff854571ddf822832419ee630cc08975",
+          "sha1": "cbddc4859317913d11e0f6ee60757eb16fa902d7",
+          "md5": "5349e0c2068666c741ae4f030de0ffe7"
+        }
+      ]
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../delusion-jna-desktop/0.8.0/delusion-jna-desktop-0.8.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-jna-desktop",
+        "version": "0.8.0"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../delusion-jna-desktop/0.8.0/delusion-jna-desktop-0.8.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-jna-desktop",
+        "version": "0.8.0"
+      }
+    }
+  ]
+}
