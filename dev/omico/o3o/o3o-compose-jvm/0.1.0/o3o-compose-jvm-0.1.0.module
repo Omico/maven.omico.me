@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../o3o-compose/0.1.0/o3o-compose-0.1.0.module",
+    "group": "dev.omico.o3o",
+    "module": "o3o-compose",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.omico.o3o",
+          "module": "o3o-core",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "o3o-compose-jvm-0.1.0.jar",
+          "url": "o3o-compose-jvm-0.1.0.jar",
+          "size": 25103,
+          "sha512": "4306590e7c2acb8b45163dec383b1de8810ba02e4b554da2464734ba7ac3c59fd1d407f452d20bda31fb67e4c1b41242a7568d526db895e26ff6c15e706adfc9",
+          "sha256": "c3d2082cd70c867085c585a3bf13f8c53dbfa36d15d6cdb295488721ff3ca50f",
+          "sha1": "90bc7e6cbedbeaa1478e84edae2cf9018bd841e8",
+          "md5": "bc5224c7a1ed3d71ddfe5b3b9e349fa5"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.omico.o3o",
+          "module": "o3o-core",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "o3o-compose-jvm-0.1.0.jar",
+          "url": "o3o-compose-jvm-0.1.0.jar",
+          "size": 25103,
+          "sha512": "4306590e7c2acb8b45163dec383b1de8810ba02e4b554da2464734ba7ac3c59fd1d407f452d20bda31fb67e4c1b41242a7568d526db895e26ff6c15e706adfc9",
+          "sha256": "c3d2082cd70c867085c585a3bf13f8c53dbfa36d15d6cdb295488721ff3ca50f",
+          "sha1": "90bc7e6cbedbeaa1478e84edae2cf9018bd841e8",
+          "md5": "bc5224c7a1ed3d71ddfe5b3b9e349fa5"
+        }
+      ]
+    }
+  ]
+}

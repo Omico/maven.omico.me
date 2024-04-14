@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.omico.o3o",
+    "module": "o3o-compose",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "dev.omico.o3o",
+          "module": "o3o-core",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "o3o-compose-metadata-0.1.0.jar",
+          "url": "o3o-compose-0.1.0.jar",
+          "size": 666,
+          "sha512": "670850f282ce11f8dad1922a0222f0c9e1f7c3f4175ce3335759a6d36a26599f8eca81fc309750d5b87a623a423c6fc32decc2d0e11fdfe4c0a45d553171a1f8",
+          "sha256": "a8936ee3353acbf02f6dd8b89b9b892289a2f9f78f09567bcc70f79bddae4916",
+          "sha1": "8d6044de7a5f77ace77c32c867493793fb9b0e8b",
+          "md5": "824d78c4bce9cc68c3e57a2fa8425544"
+        }
+      ]
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../o3o-compose-jvm/0.1.0/o3o-compose-jvm-0.1.0.module",
+        "group": "dev.omico.o3o",
+        "module": "o3o-compose-jvm",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../o3o-compose-jvm/0.1.0/o3o-compose-jvm-0.1.0.module",
+        "group": "dev.omico.o3o",
+        "module": "o3o-compose-jvm",
+        "version": "0.1.0"
+      }
+    }
+  ]
+}
