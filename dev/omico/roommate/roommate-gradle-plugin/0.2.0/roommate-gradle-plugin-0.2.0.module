@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.omico.roommate",
+    "module": "roommate-gradle-plugin",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "roommate-gradle-plugin-0.2.0.jar",
+          "url": "roommate-gradle-plugin-0.2.0.jar",
+          "size": 19524,
+          "sha512": "44220f4ca5d744b24eb4a6684521bab5cc8088d676f5502fb9683f263e955c97142093cf43e90486ed698841e87cd7922df06c3688bbe715129650faf912ce95",
+          "sha256": "99fe082896a06a605667d91188a2d5f67cd1999152cc8b2c15bb557618243fd7",
+          "sha1": "b0c74b80446d30aa514c3e8b7764557b46d826e0",
+          "md5": "0a3dc578bd10eab5f2d13e84424490fb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "roommate-gradle-plugin-0.2.0.jar",
+          "url": "roommate-gradle-plugin-0.2.0.jar",
+          "size": 19524,
+          "sha512": "44220f4ca5d744b24eb4a6684521bab5cc8088d676f5502fb9683f263e955c97142093cf43e90486ed698841e87cd7922df06c3688bbe715129650faf912ce95",
+          "sha256": "99fe082896a06a605667d91188a2d5f67cd1999152cc8b2c15bb557618243fd7",
+          "sha1": "b0c74b80446d30aa514c3e8b7764557b46d826e0",
+          "md5": "0a3dc578bd10eab5f2d13e84424490fb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "roommate-gradle-plugin-0.2.0-sources.jar",
+          "url": "roommate-gradle-plugin-0.2.0-sources.jar",
+          "size": 4689,
+          "sha512": "062bed3ab53c60c53656e8ba01366c36761cab58ec8d9189641a3c4b303a7c569b305458be774ec8da5d8096bfc7aaa026d7f3ad712259a02fcd3d1ae88dfe75",
+          "sha256": "52ffd3cebf0837730ed97c8bbf098bf3e0dd94707210bb42cc8499e7ed51a603",
+          "sha1": "929514d54f591b9ce2b6b72684730d911c1f28ca",
+          "md5": "9c85568d5d0da0657793d7ee6b6e4bd6"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "roommate-gradle-plugin-0.2.0-javadoc.jar",
+          "url": "roommate-gradle-plugin-0.2.0-javadoc.jar",
+          "size": 261,
+          "sha512": "d4a0283384479e2b1f16fa12c0aa935bc8161029108ca46064b5ccb4bb843a832f5dd05a3bebf79b1d2061590b40da5c87e9e23a15cfb1e67b596759b3952577",
+          "sha256": "5ae1cace9cdec017afb21371ac299a73f7fc2168cb86190fcb35470cad30bc83",
+          "sha1": "87dcd79544ff746e9ddbb6c8f47e4880f823238a",
+          "md5": "2501951847216d44e0cc13692e06b16f"
+        }
+      ]
+    }
+  ]
+}
