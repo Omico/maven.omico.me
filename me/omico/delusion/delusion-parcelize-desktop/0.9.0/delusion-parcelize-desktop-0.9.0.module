@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-parcelize/0.9.0/delusion-parcelize-0.9.0.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-parcelize",
+    "version": "0.9.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-parcelize-desktop-0.9.0.jar",
+          "url": "delusion-parcelize-desktop-0.9.0.jar",
+          "size": 5621,
+          "sha512": "ee32f5610c8a674bbac6f9920dcc35b769aecc5bd831481ce0af8a68a157593771a994bbf8b917c9c1fbc58cbaa7274346e99f2a40bd48190b724309c12b939f",
+          "sha256": "c8dd1c7f7ffb6697b3c0fa9b2aa0ed0325433a25f3fff49e6b656bc80f9acfee",
+          "sha1": "950766b101b6c26e5fa668fe6052bb6d93ef06fe",
+          "md5": "dc44618a7740a585327e89cb7009e321"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-parcelize-desktop-0.9.0.jar",
+          "url": "delusion-parcelize-desktop-0.9.0.jar",
+          "size": 5621,
+          "sha512": "ee32f5610c8a674bbac6f9920dcc35b769aecc5bd831481ce0af8a68a157593771a994bbf8b917c9c1fbc58cbaa7274346e99f2a40bd48190b724309c12b939f",
+          "sha256": "c8dd1c7f7ffb6697b3c0fa9b2aa0ed0325433a25f3fff49e6b656bc80f9acfee",
+          "sha1": "950766b101b6c26e5fa668fe6052bb6d93ef06fe",
+          "md5": "dc44618a7740a585327e89cb7009e321"
+        }
+      ]
+    }
+  ]
+}

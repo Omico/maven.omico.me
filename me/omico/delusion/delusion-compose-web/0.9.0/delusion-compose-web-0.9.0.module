@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-compose/0.9.0/delusion-compose-0.9.0.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-compose",
+    "version": "0.9.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "webApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-compose-web-0.9.0.klib",
+          "url": "delusion-compose-web-0.9.0.klib",
+          "size": 3266143,
+          "sha512": "cc9bdf5fce3eed2e435ba05d9479e35d1c68307a12c3caaee51d38a41ec9c74c45eafd080ae2ed7c11a0598c6342c55f340ad5df906a85fe95d16f4d7c631b40",
+          "sha256": "f1182daa1fbe427e1399afd34aedb6653f9fba3c813313e48bbf77bb7bc55c03",
+          "sha1": "67090a1cf0b0a9d4cbfff2afa838b17f98aba8c5",
+          "md5": "478416eecabff0c0323ef90cba590049"
+        }
+      ]
+    },
+    {
+      "name": "webRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-compose-web-0.9.0.klib",
+          "url": "delusion-compose-web-0.9.0.klib",
+          "size": 3266143,
+          "sha512": "cc9bdf5fce3eed2e435ba05d9479e35d1c68307a12c3caaee51d38a41ec9c74c45eafd080ae2ed7c11a0598c6342c55f340ad5df906a85fe95d16f4d7c631b40",
+          "sha256": "f1182daa1fbe427e1399afd34aedb6653f9fba3c813313e48bbf77bb7bc55c03",
+          "sha1": "67090a1cf0b0a9d4cbfff2afa838b17f98aba8c5",
+          "md5": "478416eecabff0c0323ef90cba590049"
+        }
+      ]
+    },
+    {
+      "name": "webResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-compose-0.9.0.kotlin_resources.zip",
+          "url": "delusion-compose-web-0.9.0-kotlin_resources.kotlin_resources.zip",
+          "size": 356,
+          "sha512": "239444160f2fa10c858671cb1ce8c4422492018d1342101900d07f11e4180ae3dae73c24826d71437f78fd33275a5e96a02e2fa26e0d33ce1b3159ac22496cbf",
+          "sha256": "857cf3ed88e1c89dacb049278bb02dd80bf8012ce4cd820689ff44db25e5ffa5",
+          "sha1": "a3e16898790497ccb8c33d3a9608c2a0e141c625",
+          "md5": "b0876d3d85202bfd8a04742e49657c1a"
+        }
+      ]
+    }
+  ]
+}

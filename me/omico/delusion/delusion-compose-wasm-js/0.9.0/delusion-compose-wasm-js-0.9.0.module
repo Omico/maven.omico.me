@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-compose/0.9.0/delusion-compose-0.9.0.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-compose",
+    "version": "0.9.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-compose-wasm-js-0.9.0.klib",
+          "url": "delusion-compose-wasm-js-0.9.0.klib",
+          "size": 3266151,
+          "sha512": "a9cf6907e484fc48650e596e5536eb58aac5d2a5ea3f80d7e097d7ee1bfab051f020914a1487be47c7272c5a74db7fea5b382e48b873b813223e8c02e1a80ba4",
+          "sha256": "b9792249ceedc810f9b55a57018ddc40a6cbd9b188a2d2bdd9aafa6879e25716",
+          "sha1": "a58fdd4217d9d32ddc4c0aea5389b7f971f83598",
+          "md5": "670a425d0c723e3e310e58cb65db3f57"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-compose-wasm-js-0.9.0.klib",
+          "url": "delusion-compose-wasm-js-0.9.0.klib",
+          "size": 3266151,
+          "sha512": "a9cf6907e484fc48650e596e5536eb58aac5d2a5ea3f80d7e097d7ee1bfab051f020914a1487be47c7272c5a74db7fea5b382e48b873b813223e8c02e1a80ba4",
+          "sha256": "b9792249ceedc810f9b55a57018ddc40a6cbd9b188a2d2bdd9aafa6879e25716",
+          "sha1": "a58fdd4217d9d32ddc4c0aea5389b7f971f83598",
+          "md5": "670a425d0c723e3e310e58cb65db3f57"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-compose-0.9.0.kotlin_resources.zip",
+          "url": "delusion-compose-wasm-js-0.9.0-kotlin_resources.kotlin_resources.zip",
+          "size": 356,
+          "sha512": "239444160f2fa10c858671cb1ce8c4422492018d1342101900d07f11e4180ae3dae73c24826d71437f78fd33275a5e96a02e2fa26e0d33ce1b3159ac22496cbf",
+          "sha256": "857cf3ed88e1c89dacb049278bb02dd80bf8012ce4cd820689ff44db25e5ffa5",
+          "sha1": "a3e16898790497ccb8c33d3a9608c2a0e141c625",
+          "md5": "b0876d3d85202bfd8a04742e49657c1a"
+        }
+      ]
+    }
+  ]
+}

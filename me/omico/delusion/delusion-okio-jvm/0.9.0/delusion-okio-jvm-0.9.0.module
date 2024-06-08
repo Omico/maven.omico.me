@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-okio/0.9.0/delusion-okio-0.9.0.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-okio",
+    "version": "0.9.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-okio-jvm-0.9.0.jar",
+          "url": "delusion-okio-jvm-0.9.0.jar",
+          "size": 6963,
+          "sha512": "bc1739e04e18ea257fcea21d691860f61d5f2a06a0e77b269207593a99bbca534740ab3dd30e45606299336608101f14027bc35ae4f635fc0536bfa4645ce690",
+          "sha256": "05735c39a4b2f2320fdb93307909533ae1d02f5ccbf49fcfa59b7b044405250d",
+          "sha1": "055bd8623e7eff9372ac6ab957ef5774d87c3954",
+          "md5": "444ffb2889401a06cebc366a1b583f67"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-okio-jvm-0.9.0.jar",
+          "url": "delusion-okio-jvm-0.9.0.jar",
+          "size": 6963,
+          "sha512": "bc1739e04e18ea257fcea21d691860f61d5f2a06a0e77b269207593a99bbca534740ab3dd30e45606299336608101f14027bc35ae4f635fc0536bfa4645ce690",
+          "sha256": "05735c39a4b2f2320fdb93307909533ae1d02f5ccbf49fcfa59b7b044405250d",
+          "sha1": "055bd8623e7eff9372ac6ab957ef5774d87c3954",
+          "md5": "444ffb2889401a06cebc366a1b583f67"
+        }
+      ]
+    }
+  ]
+}
