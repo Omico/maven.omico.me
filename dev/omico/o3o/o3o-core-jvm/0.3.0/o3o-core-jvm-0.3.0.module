@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../o3o-core/0.3.0/o3o-core-0.3.0.module",
+    "group": "dev.omico.o3o",
+    "module": "o3o-core",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "o3o-core-jvm-0.3.0.jar",
+          "url": "o3o-core-jvm-0.3.0.jar",
+          "size": 33208,
+          "sha512": "3f437163bdd7beb9cfcc11e1542700c89d8b3c297b6e0bc0226d9d6eddcfd54a0302bca8f3bda7009afb444551e2cc06faa052e2b02de483d8ccbbf2d72cfb41",
+          "sha256": "84c8a3337ac1deb3e0826595a8e8fcd9042f1308ad0528ae501b3575718eb97a",
+          "sha1": "d4923007d45c4b72a9991274066fcb2ad322705e",
+          "md5": "a5c3ba1415d4112abf2520d54515b994"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.24.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "o3o-core-jvm-0.3.0.jar",
+          "url": "o3o-core-jvm-0.3.0.jar",
+          "size": 33208,
+          "sha512": "3f437163bdd7beb9cfcc11e1542700c89d8b3c297b6e0bc0226d9d6eddcfd54a0302bca8f3bda7009afb444551e2cc06faa052e2b02de483d8ccbbf2d72cfb41",
+          "sha256": "84c8a3337ac1deb3e0826595a8e8fcd9042f1308ad0528ae501b3575718eb97a",
+          "sha1": "d4923007d45c4b72a9991274066fcb2ad322705e",
+          "md5": "a5c3ba1415d4112abf2520d54515b994"
+        }
+      ]
+    }
+  ]
+}
