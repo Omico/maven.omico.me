@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.dehell",
+    "module": "dehell-gradle-plugin",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "dehell-gradle-plugin-0.2.0.jar",
+          "url": "dehell-gradle-plugin-0.2.0.jar",
+          "size": 60795,
+          "sha512": "96ec701c49c48f78241602062a9a151303cdafb7d69f4339d7153cef68414b95ac09779e134a3e82ab49b84737c464fbe4f567a7188a3bf8ebdf7272c2c96387",
+          "sha256": "9b4a130d9afa02a45b20a670cd66b5728e7c136e4f2d5b0a5c2ba50f07554ad5",
+          "sha1": "db1577daa3d3d2015f97abfa8f97eb918ce86fd0",
+          "md5": "6b45cf7d8cfb6507fe12a5ec2d8daf1c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dehell-gradle-plugin-0.2.0.jar",
+          "url": "dehell-gradle-plugin-0.2.0.jar",
+          "size": 60795,
+          "sha512": "96ec701c49c48f78241602062a9a151303cdafb7d69f4339d7153cef68414b95ac09779e134a3e82ab49b84737c464fbe4f567a7188a3bf8ebdf7272c2c96387",
+          "sha256": "9b4a130d9afa02a45b20a670cd66b5728e7c136e4f2d5b0a5c2ba50f07554ad5",
+          "sha1": "db1577daa3d3d2015f97abfa8f97eb918ce86fd0",
+          "md5": "6b45cf7d8cfb6507fe12a5ec2d8daf1c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dehell-gradle-plugin-0.2.0-sources.jar",
+          "url": "dehell-gradle-plugin-0.2.0-sources.jar",
+          "size": 12644,
+          "sha512": "560df94801d3dbb8778719142937274d061832e380eef8f690a0336c62037431e7c5b841e689b308c5b26285635d10b2ebbd97bdf778c14b7908d147973eeb90",
+          "sha256": "134b3c41045eba80448b61a7da1a118b8a9f91bf55a0be1ace45e75caf6eefff",
+          "sha1": "9d960cddd8ea5eb75f7982781fe183e6c9c2466e",
+          "md5": "8bf6815e2a868525e969dc4ba16cbbec"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dehell-gradle-plugin-0.2.0-javadoc.jar",
+          "url": "dehell-gradle-plugin-0.2.0-javadoc.jar",
+          "size": 261,
+          "sha512": "67926209ebf346159b830c12b6ebe5632c8cc497731d66b8c762af94b49fa4f2fb90d7c545a263e839af2f19c4b795ed38bb2b4fd02fb7766403e330249f110e",
+          "sha256": "143322bc3840989c740bb32f29897ee0689c30d66641e4f6cdc2cd372f258e51",
+          "sha1": "f6657153a6b0a6d01c6eca9264e8c7ddf3911873",
+          "md5": "5f4a8642776a70f65fc83d9ac33cba57"
+        }
+      ]
+    }
+  ]
+}
