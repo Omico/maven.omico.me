@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.consensus",
+    "module": "consensus-gradle-plugins",
+    "version": "0.13.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-api",
+          "version": {
+            "requires": "0.13.0"
+          }
+        },
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-git",
+          "version": {
+            "requires": "0.13.0"
+          }
+        },
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-publishing",
+          "version": {
+            "requires": "0.13.0"
+          }
+        },
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-root",
+          "version": {
+            "requires": "0.13.0"
+          }
+        },
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-spotless",
+          "version": {
+            "requires": "0.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "consensus-gradle-plugins-0.13.0.jar",
+          "url": "consensus-gradle-plugins-0.13.0.jar",
+          "size": 261,
+          "sha512": "b35229cf94437bc61de6d3db55fa2452de7d6c26564184e682294fd00e8292274016f56bba1dc84ec20459d51bd99af67a4fe0d99362671898da1d42df0791ba",
+          "sha256": "990fc65ec5e781c897a6fad78f4ae198a1b06a0f4cdd6ff379fff872f61ad908",
+          "sha1": "9fff5eb0f781e5c5061535ed10f7de32278df661",
+          "md5": "9882015c2b43d67af31dc9e2cb4b33bd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-api",
+          "version": {
+            "requires": "0.13.0"
+          }
+        },
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-git",
+          "version": {
+            "requires": "0.13.0"
+          }
+        },
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-publishing",
+          "version": {
+            "requires": "0.13.0"
+          }
+        },
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-root",
+          "version": {
+            "requires": "0.13.0"
+          }
+        },
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-spotless",
+          "version": {
+            "requires": "0.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "consensus-gradle-plugins-0.13.0.jar",
+          "url": "consensus-gradle-plugins-0.13.0.jar",
+          "size": 261,
+          "sha512": "b35229cf94437bc61de6d3db55fa2452de7d6c26564184e682294fd00e8292274016f56bba1dc84ec20459d51bd99af67a4fe0d99362671898da1d42df0791ba",
+          "sha256": "990fc65ec5e781c897a6fad78f4ae198a1b06a0f4cdd6ff379fff872f61ad908",
+          "sha1": "9fff5eb0f781e5c5061535ed10f7de32278df661",
+          "md5": "9882015c2b43d67af31dc9e2cb4b33bd"
+        }
+      ]
+    }
+  ]
+}
