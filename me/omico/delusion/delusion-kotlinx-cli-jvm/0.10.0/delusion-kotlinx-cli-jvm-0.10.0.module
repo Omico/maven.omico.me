@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-kotlinx-cli/0.10.0/delusion-kotlinx-cli-0.10.0.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-kotlinx-cli",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-kotlinx-cli-jvm-0.10.0.jar",
+          "url": "delusion-kotlinx-cli-jvm-0.10.0.jar",
+          "size": 3321,
+          "sha512": "d3d56223a888a7e5b31e7b6f3dc4aa0b163885832b248d39c619bf33c2d57b20ccb22900aa3106037d45f3e04310b1105495f5386c9f7be58ceacc02da599bae",
+          "sha256": "fbb0c125c427cf60eb6338bc31f5353ef49b501f6d4e1551a755a6e29f8f508c",
+          "sha1": "bed1366db7ef618de24a152bc79afffe171dbc3f",
+          "md5": "03c97ba79f0c779d17fc8887d8fb40f3"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-kotlinx-cli-jvm-0.10.0.jar",
+          "url": "delusion-kotlinx-cli-jvm-0.10.0.jar",
+          "size": 3321,
+          "sha512": "d3d56223a888a7e5b31e7b6f3dc4aa0b163885832b248d39c619bf33c2d57b20ccb22900aa3106037d45f3e04310b1105495f5386c9f7be58ceacc02da599bae",
+          "sha256": "fbb0c125c427cf60eb6338bc31f5353ef49b501f6d4e1551a755a6e29f8f508c",
+          "sha1": "bed1366db7ef618de24a152bc79afffe171dbc3f",
+          "md5": "03c97ba79f0c779d17fc8887d8fb40f3"
+        }
+      ]
+    }
+  ]
+}

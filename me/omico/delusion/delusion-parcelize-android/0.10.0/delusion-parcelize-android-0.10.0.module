@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-parcelize/0.10.0/delusion-parcelize-0.10.0.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-parcelize",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-parcelize-release.aar",
+          "url": "delusion-parcelize-android-0.10.0.aar",
+          "size": 3880,
+          "sha512": "5e1ea64bd37689903c675ab430de0309077e0150766ece1624ce4f0c1436bda8c67ece7671dd898eca8b1bb155126794ac4424e49dbfba68c7f44fa60f220fd9",
+          "sha256": "5d844c932bbb0685c0e693b124905ee29c188dcae7282464b3180dd127e1f9c8",
+          "sha1": "5289e2b5434a08db3d7628ba487593bd8afe663a",
+          "md5": "decc0638d44d90b646c0fbfafac26653"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.0.20"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-parcelize-release.aar",
+          "url": "delusion-parcelize-android-0.10.0.aar",
+          "size": 3880,
+          "sha512": "5e1ea64bd37689903c675ab430de0309077e0150766ece1624ce4f0c1436bda8c67ece7671dd898eca8b1bb155126794ac4424e49dbfba68c7f44fa60f220fd9",
+          "sha256": "5d844c932bbb0685c0e693b124905ee29c188dcae7282464b3180dd127e1f9c8",
+          "sha1": "5289e2b5434a08db3d7628ba487593bd8afe663a",
+          "md5": "decc0638d44d90b646c0fbfafac26653"
+        }
+      ]
+    }
+  ]
+}

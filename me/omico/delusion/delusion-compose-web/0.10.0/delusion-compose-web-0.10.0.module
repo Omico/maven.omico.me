@@ -1,0 +1,195 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-compose/0.10.0/delusion-compose-0.10.0.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-compose",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "webApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-compose-web-0.10.0.klib",
+          "url": "delusion-compose-web-0.10.0.klib",
+          "size": 3326314,
+          "sha512": "3625159d9975bd1e54aaaeba5e47ad094f33dd4d5b4d00719520b72cc47ecfa1aaec3406cfed6f6bf3555e79b2e3a2779303b5057b749164083ae69f942ff66e",
+          "sha256": "09320c8af177680a0d9d6af79be8b0d774163d9a9505d17f423d3115c93934d0",
+          "sha1": "84a677a987aeec1eec8230f2339ea8e5e1040d71",
+          "md5": "101baddd5bb54e74cc3b5ddb921b1632"
+        }
+      ]
+    },
+    {
+      "name": "webRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-compose-web-0.10.0.klib",
+          "url": "delusion-compose-web-0.10.0.klib",
+          "size": 3326314,
+          "sha512": "3625159d9975bd1e54aaaeba5e47ad094f33dd4d5b4d00719520b72cc47ecfa1aaec3406cfed6f6bf3555e79b2e3a2779303b5057b749164083ae69f942ff66e",
+          "sha256": "09320c8af177680a0d9d6af79be8b0d774163d9a9505d17f423d3115c93934d0",
+          "sha1": "84a677a987aeec1eec8230f2339ea8e5e1040d71",
+          "md5": "101baddd5bb54e74cc3b5ddb921b1632"
+        }
+      ]
+    },
+    {
+      "name": "webResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-compose-0.10.0.kotlin_resources.zip",
+          "url": "delusion-compose-web-0.10.0-kotlin_resources.kotlin_resources.zip",
+          "size": 318,
+          "sha512": "e4f9de7c7bac8aa2eb977827f1bb2f4a63faa96c5433b540a706d13df4ef2f50db67922b293a0a65b0dc371b42c2195234449b18b2f4951eb0e3617c47bc8af4",
+          "sha256": "43dd7a04cd4956f37be35c2ac3558102c87a23789e061c70f7538b46eb9cd01b",
+          "sha1": "d1264f9b51ac9d917b77a642d8b2bf467ece3061",
+          "md5": "c75b838d1a26458161890ab376a72629"
+        }
+      ]
+    }
+  ]
+}
