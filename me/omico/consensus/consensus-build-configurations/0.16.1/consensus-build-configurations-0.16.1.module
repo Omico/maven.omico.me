@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.consensus",
+    "module": "consensus-build-configurations",
+    "version": "0.16.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "consensus-build-configurations-0.16.1.jar",
+          "url": "consensus-build-configurations-0.16.1.jar",
+          "size": 39189,
+          "sha512": "2238812bf5396fdc705c7a88c523b75d8a44d8964d938b1a69e0e0cfd9f3f8c957663bf9ce2e068d38a0f0e2ba858159e9bb2062ede40ec3523fb90ecad44a71",
+          "sha256": "6de9690d49640d90e7b73fc4f2024a6e176a7ddd76b93309da3a8d97e3665929",
+          "sha1": "8509bf64e2cad9d73924fbee5b650aeb5a455818",
+          "md5": "61586d59329edbc9e837ff0e9fa5f547"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-api",
+          "version": {
+            "requires": "0.16.1"
+          }
+        },
+        {
+          "group": "me.omico.elucidator",
+          "module": "elucidator",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "2.0.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "consensus-build-configurations-0.16.1.jar",
+          "url": "consensus-build-configurations-0.16.1.jar",
+          "size": 39189,
+          "sha512": "2238812bf5396fdc705c7a88c523b75d8a44d8964d938b1a69e0e0cfd9f3f8c957663bf9ce2e068d38a0f0e2ba858159e9bb2062ede40ec3523fb90ecad44a71",
+          "sha256": "6de9690d49640d90e7b73fc4f2024a6e176a7ddd76b93309da3a8d97e3665929",
+          "sha1": "8509bf64e2cad9d73924fbee5b650aeb5a455818",
+          "md5": "61586d59329edbc9e837ff0e9fa5f547"
+        }
+      ]
+    }
+  ]
+}
