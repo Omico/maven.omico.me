@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.consensus",
+    "module": "consensus-initialization",
+    "version": "0.17.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "consensus-initialization-0.17.0.jar",
+          "url": "consensus-initialization-0.17.0.jar",
+          "size": 22092,
+          "sha512": "b345ac099c065aedc41eeeee233024bad0f9bc98e50c6f74460f2a85c15093479330666639cd949589bf9d4055d9eb697510a9fe1532d845e714cb01320f1717",
+          "sha256": "c8dea6c5f36946cc148c8386f67d159edb4afbdd3b7bab5c61b693f7d79c506a",
+          "sha1": "e1fec6198f3ab4a8adf22ecde9deb167d5ed6cd1",
+          "md5": "e9957b93b8cc16a77951569cbff1dcc0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-api",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "com.gradle.develocity",
+          "module": "com.gradle.develocity.gradle.plugin",
+          "version": {
+            "requires": "3.19"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "consensus-initialization-0.17.0.jar",
+          "url": "consensus-initialization-0.17.0.jar",
+          "size": 22092,
+          "sha512": "b345ac099c065aedc41eeeee233024bad0f9bc98e50c6f74460f2a85c15093479330666639cd949589bf9d4055d9eb697510a9fe1532d845e714cb01320f1717",
+          "sha256": "c8dea6c5f36946cc148c8386f67d159edb4afbdd3b7bab5c61b693f7d79c506a",
+          "sha1": "e1fec6198f3ab4a8adf22ecde9deb167d5ed6cd1",
+          "md5": "e9957b93b8cc16a77951569cbff1dcc0"
+        }
+      ]
+    }
+  ]
+}
