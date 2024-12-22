@@ -1,0 +1,57 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-okio/0.10.1/delusion-okio-0.10.1.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-okio",
+    "version": "0.10.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-okio.klib",
+          "url": "delusion-okio-linuxarm64-0.10.1.klib",
+          "size": 10466,
+          "sha512": "2483d9b8b7791aed163692ed7cc83ee72df97779518b288945bfeec4421ab81a923364a7f8a473eaf8f27b48a920d2b48a6d9002e2794135e08db1d8e61e219a",
+          "sha256": "2216ede90d6b50c76491504875714410cca6bf1a7771c2609d417bafe1bed7ce",
+          "sha1": "21d3a31d66500fc4557a9e97906497291d962bfc",
+          "md5": "15c556e0cd08a307077115bf50698890"
+        }
+      ]
+    }
+  ]
+}

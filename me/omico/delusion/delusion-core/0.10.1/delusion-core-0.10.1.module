@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.delusion",
+    "module": "delusion-core",
+    "version": "0.10.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-core-metadata-0.10.1.jar",
+          "url": "delusion-core-0.10.1.jar",
+          "size": 739,
+          "sha512": "9fbdbf6b25a05ec0ccfc71a54fb569d77314a51d14a627c1ec7c6db170dc7be2104a6f462e1035fcf870802121d8aa1d7607bce5030a41b9fed8324eaa3a5010",
+          "sha256": "4b742eb723034570f0ecdc9bb7c49a5b15aed631b2c9eaa6410e67c20324d079",
+          "sha1": "4040e765c2b884581c6ed74e7fe653ad98d094ea",
+          "md5": "bc384f21d4663ecd64621af4adf3cedf"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../delusion-core-android/0.10.1/delusion-core-android-0.10.1.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-core-android",
+        "version": "0.10.1"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../delusion-core-android/0.10.1/delusion-core-android-0.10.1.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-core-android",
+        "version": "0.10.1"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../delusion-core-desktop/0.10.1/delusion-core-desktop-0.10.1.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-core-desktop",
+        "version": "0.10.1"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../delusion-core-desktop/0.10.1/delusion-core-desktop-0.10.1.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-core-desktop",
+        "version": "0.10.1"
+      }
+    }
+  ]
+}

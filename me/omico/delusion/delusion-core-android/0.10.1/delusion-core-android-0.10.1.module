@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-core/0.10.1/delusion-core-0.10.1.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-core",
+    "version": "0.10.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-core-release.aar",
+          "url": "delusion-core-android-0.10.1.aar",
+          "size": 6692,
+          "sha512": "c660a2c6f6aef3a4260abc8a7a651a426f9127f8d4fed3bfa2c59d2f6cbce5f6df498eada816a41213beaa7683bf0b92e738fc8cd0d3290e9f4efcab3c00155c",
+          "sha256": "34f080ed21feb6cc4591a845448324a9d95c2f8e1a8bc73281bbc20389c3aeb7",
+          "sha1": "e0e67ff7030ee0e20e187557ad094bf4b9cbbbea",
+          "md5": "0c10e0c3197fd503bcd068d5e3990d31"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-core-release.aar",
+          "url": "delusion-core-android-0.10.1.aar",
+          "size": 6692,
+          "sha512": "c660a2c6f6aef3a4260abc8a7a651a426f9127f8d4fed3bfa2c59d2f6cbce5f6df498eada816a41213beaa7683bf0b92e738fc8cd0d3290e9f4efcab3c00155c",
+          "sha256": "34f080ed21feb6cc4591a845448324a9d95c2f8e1a8bc73281bbc20389c3aeb7",
+          "sha1": "e0e67ff7030ee0e20e187557ad094bf4b9cbbbea",
+          "md5": "0c10e0c3197fd503bcd068d5e3990d31"
+        }
+      ]
+    }
+  ]
+}
