@@ -1,0 +1,348 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.delusion",
+    "module": "delusion-kotlinx-io",
+    "version": "0.11.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-kotlinx-io-metadata-0.11.0.jar",
+          "url": "delusion-kotlinx-io-0.11.0.jar",
+          "size": 2725,
+          "sha512": "e9d47452fdc66515f10a4ec20a59e50ba565864a6de12f4686d525daca3c4cfc3e11240574fc067952b3d128e3b1f381ae097d3a9608a231eccd9ffffae36e67",
+          "sha256": "b5fc13532c49f2dc16d917dd0b9b2fbad67890acf96a5a3672a543d86d09cbe5",
+          "sha1": "0dd156901abcdb639bc1e7dd2ee287df9b6c3fa8",
+          "md5": "b01d05b1ec4d242fc72e90823bdfa9f9"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../delusion-kotlinx-io-android/0.11.0/delusion-kotlinx-io-android-0.11.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-kotlinx-io-android",
+        "version": "0.11.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../delusion-kotlinx-io-android/0.11.0/delusion-kotlinx-io-android-0.11.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-kotlinx-io-android",
+        "version": "0.11.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../delusion-kotlinx-io-iosarm64/0.11.0/delusion-kotlinx-io-iosarm64-0.11.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-kotlinx-io-iosarm64",
+        "version": "0.11.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../delusion-kotlinx-io-iosarm64/0.11.0/delusion-kotlinx-io-iosarm64-0.11.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-kotlinx-io-iosarm64",
+        "version": "0.11.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../delusion-kotlinx-io-iossimulatorarm64/0.11.0/delusion-kotlinx-io-iossimulatorarm64-0.11.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-kotlinx-io-iossimulatorarm64",
+        "version": "0.11.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../delusion-kotlinx-io-iossimulatorarm64/0.11.0/delusion-kotlinx-io-iossimulatorarm64-0.11.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-kotlinx-io-iossimulatorarm64",
+        "version": "0.11.0"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../delusion-kotlinx-io-iosx64/0.11.0/delusion-kotlinx-io-iosx64-0.11.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-kotlinx-io-iosx64",
+        "version": "0.11.0"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../delusion-kotlinx-io-iosx64/0.11.0/delusion-kotlinx-io-iosx64-0.11.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-kotlinx-io-iosx64",
+        "version": "0.11.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../delusion-kotlinx-io-jvm/0.11.0/delusion-kotlinx-io-jvm-0.11.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-kotlinx-io-jvm",
+        "version": "0.11.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../delusion-kotlinx-io-jvm/0.11.0/delusion-kotlinx-io-jvm-0.11.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-kotlinx-io-jvm",
+        "version": "0.11.0"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../delusion-kotlinx-io-macosarm64/0.11.0/delusion-kotlinx-io-macosarm64-0.11.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-kotlinx-io-macosarm64",
+        "version": "0.11.0"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../delusion-kotlinx-io-macosarm64/0.11.0/delusion-kotlinx-io-macosarm64-0.11.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-kotlinx-io-macosarm64",
+        "version": "0.11.0"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../delusion-kotlinx-io-macosx64/0.11.0/delusion-kotlinx-io-macosx64-0.11.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-kotlinx-io-macosx64",
+        "version": "0.11.0"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../delusion-kotlinx-io-macosx64/0.11.0/delusion-kotlinx-io-macosx64-0.11.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-kotlinx-io-macosx64",
+        "version": "0.11.0"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../delusion-kotlinx-io-wasm-js/0.11.0/delusion-kotlinx-io-wasm-js-0.11.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-kotlinx-io-wasm-js",
+        "version": "0.11.0"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../delusion-kotlinx-io-wasm-js/0.11.0/delusion-kotlinx-io-wasm-js-0.11.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-kotlinx-io-wasm-js",
+        "version": "0.11.0"
+      }
+    },
+    {
+      "name": "webApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../delusion-kotlinx-io-web/0.11.0/delusion-kotlinx-io-web-0.11.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-kotlinx-io-web",
+        "version": "0.11.0"
+      }
+    },
+    {
+      "name": "webRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../delusion-kotlinx-io-web/0.11.0/delusion-kotlinx-io-web-0.11.0.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-kotlinx-io-web",
+        "version": "0.11.0"
+      }
+    }
+  ]
+}

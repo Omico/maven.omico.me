@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-kotlinx-io/0.11.0/delusion-kotlinx-io-0.11.0.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-kotlinx-io",
+    "version": "0.11.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-kotlinx-io-wasm-js-0.11.0.klib",
+          "url": "delusion-kotlinx-io-wasm-js-0.11.0.klib",
+          "size": 5339,
+          "sha512": "5574d2f4e00bb409daeef2df5c2b3af32d17c1cfb1a8a3b3b72ac27f936140fb6eb673204d8112fddc950d053b8419cd953bc76bc8502e9e8aa771c6e0f8d5ae",
+          "sha256": "593b233536e7471147c06b17a114408151ff026c91c9e640b87153e4ac8029bb",
+          "sha1": "4ce63dcda6bb9636b45c94d1112d2a9a74abc929",
+          "md5": "8179056b4f3df471cffcec71dce1cd97"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-kotlinx-io-wasm-js-0.11.0.klib",
+          "url": "delusion-kotlinx-io-wasm-js-0.11.0.klib",
+          "size": 5339,
+          "sha512": "5574d2f4e00bb409daeef2df5c2b3af32d17c1cfb1a8a3b3b72ac27f936140fb6eb673204d8112fddc950d053b8419cd953bc76bc8502e9e8aa771c6e0f8d5ae",
+          "sha256": "593b233536e7471147c06b17a114408151ff026c91c9e640b87153e4ac8029bb",
+          "sha1": "4ce63dcda6bb9636b45c94d1112d2a9a74abc929",
+          "md5": "8179056b4f3df471cffcec71dce1cd97"
+        }
+      ]
+    }
+  ]
+}
