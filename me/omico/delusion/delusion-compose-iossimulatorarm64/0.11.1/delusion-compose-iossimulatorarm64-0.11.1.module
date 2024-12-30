@@ -1,0 +1,197 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-compose/0.11.1/delusion-compose-0.11.1.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-compose",
+    "version": "0.11.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3-adaptive-navigation-suite",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3.adaptive",
+          "module": "adaptive",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-compose.klib",
+          "url": "delusion-compose-iossimulatorarm64-0.11.1.klib",
+          "size": 29984,
+          "sha512": "9837ab927fe2a09fd0651693230f2711866e8e1ec0223e2ccb01b6b756e51da86b62c9277af258e0689bfb6c92d809460176b111f8570ba906e43602fb2be480",
+          "sha256": "cbf7e2968312ffe607f0c2afc2d8bbbdd748beee285bc8eb6c8708bf1a498671",
+          "sha1": "91b1df6a9739dabc5b5a045a8059cfd091abfeed",
+          "md5": "f24216cf1232adf27705877f215f74cf"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3-adaptive-navigation-suite",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3.adaptive",
+          "module": "adaptive",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-compose-0.11.1.kotlin_resources.zip",
+          "url": "delusion-compose-iossimulatorarm64-0.11.1-kotlin_resources.kotlin_resources.zip",
+          "size": 318,
+          "sha512": "e4f9de7c7bac8aa2eb977827f1bb2f4a63faa96c5433b540a706d13df4ef2f50db67922b293a0a65b0dc371b42c2195234449b18b2f4951eb0e3617c47bc8af4",
+          "sha256": "43dd7a04cd4956f37be35c2ac3558102c87a23789e061c70f7538b46eb9cd01b",
+          "sha1": "d1264f9b51ac9d917b77a642d8b2bf467ece3061",
+          "md5": "c75b838d1a26458161890ab376a72629"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3-adaptive-navigation-suite",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3.adaptive",
+          "module": "adaptive",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-compose-iossimulatorarm64-0.11.1-metadata.jar",
+          "url": "delusion-compose-iossimulatorarm64-0.11.1-metadata.jar",
+          "size": 5116,
+          "sha512": "476bab509ebfcb3176c61254cafbee876ed3d1efc007bbaff4cd552934a13b124a840954ee1d0c1d3c9b1d79af8063167ba723bf9028975c1cc4d5b6b7c88a0a",
+          "sha256": "34bb1987608cf021d062ab8880820d5b751a5e64ebeafe90250d561f751e1ecc",
+          "sha1": "d17e003b6757fb78c0663b2cee0a2f5def0f9cb6",
+          "md5": "7b4b6b08f9fd0819d8d94d452276ae47"
+        }
+      ]
+    }
+  ]
+}
