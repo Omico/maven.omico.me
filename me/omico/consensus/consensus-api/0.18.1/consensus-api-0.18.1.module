@@ -1,0 +1,64 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.consensus",
+    "module": "consensus-api",
+    "version": "0.18.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "consensus-api-0.18.1.jar",
+          "url": "consensus-api-0.18.1.jar",
+          "size": 77472,
+          "sha512": "edc79467e7701e0d1066fbf800e5fdd3b010307866aca0599f50b37a5e589c3d254cfe217c9ccd2cd8f7500b544842403c4a0918d1a613c6f56e7b52c089fac9",
+          "sha256": "f1ae0cc411d3e835da0b2b956c926959a95c1caad0649f2233105df04a632502",
+          "sha1": "039476c87d273dcef097ab0267697a62a3fe8e84",
+          "md5": "942094e89659be3fa9b1a11bd4b438d0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "consensus-api-0.18.1.jar",
+          "url": "consensus-api-0.18.1.jar",
+          "size": 77472,
+          "sha512": "edc79467e7701e0d1066fbf800e5fdd3b010307866aca0599f50b37a5e589c3d254cfe217c9ccd2cd8f7500b544842403c4a0918d1a613c6f56e7b52c089fac9",
+          "sha256": "f1ae0cc411d3e835da0b2b956c926959a95c1caad0649f2233105df04a632502",
+          "sha1": "039476c87d273dcef097ab0267697a62a3fe8e84",
+          "md5": "942094e89659be3fa9b1a11bd4b438d0"
+        }
+      ]
+    }
+  ]
+}
