@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.consensus",
+    "module": "consensus-spotless",
+    "version": "0.19.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "consensus-spotless-0.19.1.jar",
+          "url": "consensus-spotless-0.19.1.jar",
+          "size": 31600,
+          "sha512": "226dc66c17f69ff77ef5c2c49b133716d8f445da2600f163b3c2b23fc16219a608c9a3fa52c818706ebcc745766d2ebe656d7f008ec61104126900b4d6e3156a",
+          "sha256": "fe2613bf76b8afcc1024327a09f18734193bb939c0831190570087e4107538a1",
+          "sha1": "749150a62b18a0bd910a1371feb9dd82326c5380",
+          "md5": "6dea69ad2de5330bb39947ecbb7cb632"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-api",
+          "version": {
+            "requires": "0.19.1"
+          }
+        },
+        {
+          "group": "com.diffplug.spotless",
+          "module": "com.diffplug.spotless.gradle.plugin",
+          "version": {
+            "requires": "7.0.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "consensus-spotless-0.19.1.jar",
+          "url": "consensus-spotless-0.19.1.jar",
+          "size": 31600,
+          "sha512": "226dc66c17f69ff77ef5c2c49b133716d8f445da2600f163b3c2b23fc16219a608c9a3fa52c818706ebcc745766d2ebe656d7f008ec61104126900b4d6e3156a",
+          "sha256": "fe2613bf76b8afcc1024327a09f18734193bb939c0831190570087e4107538a1",
+          "sha1": "749150a62b18a0bd910a1371feb9dd82326c5380",
+          "md5": "6dea69ad2de5330bb39947ecbb7cb632"
+        }
+      ]
+    }
+  ]
+}

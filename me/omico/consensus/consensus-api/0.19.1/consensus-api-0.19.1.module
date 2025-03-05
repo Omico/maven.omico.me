@@ -1,0 +1,64 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.consensus",
+    "module": "consensus-api",
+    "version": "0.19.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "consensus-api-0.19.1.jar",
+          "url": "consensus-api-0.19.1.jar",
+          "size": 87788,
+          "sha512": "b9f5a1fdc2d5215aa2dda66686591156a49877c1f56beb0290bf8cef564bd677ca8b6df79a5c981e42d22e00c657dbf251c1d026f4d5946676980504f1ce0a32",
+          "sha256": "5081beb7212b23325c00d0be060833561cf71d20c12817ab68e93e0097befa12",
+          "sha1": "c3f124f11727a7ddc67afe0f18cc8fc6c75368ec",
+          "md5": "3a4eaa17d4c62832c184a91ec2b12883"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "consensus-api-0.19.1.jar",
+          "url": "consensus-api-0.19.1.jar",
+          "size": 87788,
+          "sha512": "b9f5a1fdc2d5215aa2dda66686591156a49877c1f56beb0290bf8cef564bd677ca8b6df79a5c981e42d22e00c657dbf251c1d026f4d5946676980504f1ce0a32",
+          "sha256": "5081beb7212b23325c00d0be060833561cf71d20c12817ab68e93e0097befa12",
+          "sha1": "c3f124f11727a7ddc67afe0f18cc8fc6c75368ec",
+          "md5": "3a4eaa17d4c62832c184a91ec2b12883"
+        }
+      ]
+    }
+  ]
+}
