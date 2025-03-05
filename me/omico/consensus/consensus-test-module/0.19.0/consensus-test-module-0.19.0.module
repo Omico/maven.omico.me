@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.consensus",
+    "module": "consensus-test-module",
+    "version": "0.19.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "consensus-test-module-0.19.0.jar",
+          "url": "consensus-test-module-0.19.0.jar",
+          "size": 7621,
+          "sha512": "f6d0052c6f8ff3821dc675c3f389fe2e82162d2addffeba160665c9c90afb03cd4e44a1e8a8efac67e8c6b6efee268ad80129bf7e183bfdfc069eab0e262f734",
+          "sha256": "224329ccf19af940f62c0fadbe93311a0e20bf1d0f2408bc4ba18498c936ebad",
+          "sha1": "8eff6be452bb8d06129575336a816cd8bc203598",
+          "md5": "22921d0188b414de58262c9838eb42f7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-api",
+          "version": {
+            "requires": "0.19.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "consensus-test-module-0.19.0.jar",
+          "url": "consensus-test-module-0.19.0.jar",
+          "size": 7621,
+          "sha512": "f6d0052c6f8ff3821dc675c3f389fe2e82162d2addffeba160665c9c90afb03cd4e44a1e8a8efac67e8c6b6efee268ad80129bf7e183bfdfc069eab0e262f734",
+          "sha256": "224329ccf19af940f62c0fadbe93311a0e20bf1d0f2408bc4ba18498c936ebad",
+          "sha1": "8eff6be452bb8d06129575336a816cd8bc203598",
+          "md5": "22921d0188b414de58262c9838eb42f7"
+        }
+      ]
+    }
+  ]
+}
