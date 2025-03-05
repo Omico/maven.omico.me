@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-kotlinx-io/0.11.2/delusion-kotlinx-io-0.11.2.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-kotlinx-io",
+    "version": "0.11.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-kotlinx-io-release.aar",
+          "url": "delusion-kotlinx-io-android-0.11.2.aar",
+          "size": 2992,
+          "sha512": "c483736f4ef56afe1b8e3906631d57224ded940a09b07931c08457886b2b90f1e39fc3370c44726fa6c4a6f5916b02cc7bcde65e8f330c15b5b5671e709a22ff",
+          "sha256": "2fbcbfcc0c2cbd1792c06967d0637d14701f3a20a22479016286461f1facca59",
+          "sha1": "a1a2db7a5dcb9d8e40b8da1c462086cf223e82ca",
+          "md5": "1aa78c80d8fb042712a8fe410a452126"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-kotlinx-io-release.aar",
+          "url": "delusion-kotlinx-io-android-0.11.2.aar",
+          "size": 2992,
+          "sha512": "c483736f4ef56afe1b8e3906631d57224ded940a09b07931c08457886b2b90f1e39fc3370c44726fa6c4a6f5916b02cc7bcde65e8f330c15b5b5671e709a22ff",
+          "sha256": "2fbcbfcc0c2cbd1792c06967d0637d14701f3a20a22479016286461f1facca59",
+          "sha1": "a1a2db7a5dcb9d8e40b8da1c462086cf223e82ca",
+          "md5": "1aa78c80d8fb042712a8fe410a452126"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-kotlin-compiler/0.11.2/delusion-kotlin-compiler-0.11.2.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-kotlin-compiler",
+    "version": "0.11.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-kotlin-compiler-jvm-0.11.2.jar",
+          "url": "delusion-kotlin-compiler-jvm-0.11.2.jar",
+          "size": 3106,
+          "sha512": "b94482118c79b20f8fe4e9cc61ef9afb0e869c9c24636500677b560c02c63b56ab1792bc7a1b1cca72db6128966f7149cfba4e81c5a2683046e800b8caee7aba",
+          "sha256": "76231698d26b5250f7fd441dcc952d298ac4d303ed4b384844902e73d5128c39",
+          "sha1": "7cba86765de0c93c86891d4b25c1771e997013fe",
+          "md5": "552f68f93db1eb46255d8233274916cd"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-kotlin-compiler-jvm-0.11.2.jar",
+          "url": "delusion-kotlin-compiler-jvm-0.11.2.jar",
+          "size": 3106,
+          "sha512": "b94482118c79b20f8fe4e9cc61ef9afb0e869c9c24636500677b560c02c63b56ab1792bc7a1b1cca72db6128966f7149cfba4e81c5a2683046e800b8caee7aba",
+          "sha256": "76231698d26b5250f7fd441dcc952d298ac4d303ed4b384844902e73d5128c39",
+          "sha1": "7cba86765de0c93c86891d4b25c1771e997013fe",
+          "md5": "552f68f93db1eb46255d8233274916cd"
+        }
+      ]
+    }
+  ]
+}

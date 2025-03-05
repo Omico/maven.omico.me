@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-parcelize/0.11.2/delusion-parcelize-0.11.2.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-parcelize",
+    "version": "0.11.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-parcelize.klib",
+          "url": "delusion-parcelize-iosarm64-0.11.2.klib",
+          "size": 11410,
+          "sha512": "5df5daeee6ddcbaf0d16c563a87c298d9a29089d43f060a1556397edf95f7f8134d53119cc098cd0caa0eee2ad3e048ed8ab0d704af623eff546a1834531512c",
+          "sha256": "29c5b2e7f3a37e4f239ccf295ca8190a593a5f4c754f8a2e50c72ce2d4a9d0b1",
+          "sha1": "82c0f5ac2c1e864c5a6599790d4a635529b79976",
+          "md5": "727db7a377f3a0a0f99cfc0673b889ec"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-parcelize-iosarm64-0.11.2-metadata.jar",
+          "url": "delusion-parcelize-iosarm64-0.11.2-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

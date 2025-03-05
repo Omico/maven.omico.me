@@ -1,0 +1,95 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-kotlinx-io/0.11.2/delusion-kotlinx-io-0.11.2.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-kotlinx-io",
+    "version": "0.11.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-kotlinx-io.klib",
+          "url": "delusion-kotlinx-io-macosx64-0.11.2.klib",
+          "size": 6377,
+          "sha512": "80531c9634749d474d847a4acfba9a4be0edc77231abd6265cf56f217d12a55a0356295303c19082c17ad8826d586df78357e792fd7e4251f986bb0dd5c6ccc8",
+          "sha256": "23360f05b6dd6dfcaf2db5cbd3f950ccea245ef8cdb5c33b73bb051580c24973",
+          "sha1": "ce75aa6afba72a828883999d7880d0b6cbf20694",
+          "md5": "96e538c9442cef967e94d164f2c31510"
+        }
+      ]
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-kotlinx-io-macosx64-0.11.2-metadata.jar",
+          "url": "delusion-kotlinx-io-macosx64-0.11.2-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

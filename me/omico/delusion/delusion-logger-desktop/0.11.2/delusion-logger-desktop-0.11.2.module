@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../delusion-logger/0.11.2/delusion-logger-0.11.2.module",
+    "group": "me.omico.delusion",
+    "module": "delusion-logger",
+    "version": "0.11.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-logger-desktop-0.11.2.jar",
+          "url": "delusion-logger-desktop-0.11.2.jar",
+          "size": 12981,
+          "sha512": "413f5ea123354dee5d6323350ca1d1275c61fce665edeac3146cd3050ce3eded935923d47a0a6f1808421f51a4d82494e2e952d01ac5ce5057d803799543ac66",
+          "sha256": "73111e969683e6182ce435d27aa6a7add31da80566b1501de8c339373998b241",
+          "sha1": "03e1c90a029d9c5d67337e05557c1bda635ac7c3",
+          "md5": "2eb53451e6a87649bc08f45a7b4ca497"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-logger-desktop-0.11.2.jar",
+          "url": "delusion-logger-desktop-0.11.2.jar",
+          "size": 12981,
+          "sha512": "413f5ea123354dee5d6323350ca1d1275c61fce665edeac3146cd3050ce3eded935923d47a0a6f1808421f51a4d82494e2e952d01ac5ce5057d803799543ac66",
+          "sha256": "73111e969683e6182ce435d27aa6a7add31da80566b1501de8c339373998b241",
+          "sha1": "03e1c90a029d9c5d67337e05557c1bda635ac7c3",
+          "md5": "2eb53451e6a87649bc08f45a7b4ca497"
+        }
+      ]
+    }
+  ]
+}

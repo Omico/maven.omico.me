@@ -1,0 +1,277 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.delusion",
+    "module": "delusion-parcelize",
+    "version": "0.11.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "delusion-parcelize-metadata-0.11.2.jar",
+          "url": "delusion-parcelize-0.11.2.jar",
+          "size": 9965,
+          "sha512": "be85f3d0df7fe81a33a557a3111f83233e6a2a85ad616af0773c5302f83ca2e30fd45aa995030437fd3098ce2903effdba3807dabcdfd5ef8eb512033656a608",
+          "sha256": "a77a07ec99fe016a0a63f8cc0723dec089d5da794b9346739014c24c8900400b",
+          "sha1": "92dc39d6d579537161a8e7ed2a7ccaaa278244e0",
+          "md5": "fedc27f1dfbc4f9f299db61569de7bb2"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../delusion-parcelize-android/0.11.2/delusion-parcelize-android-0.11.2.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-parcelize-android",
+        "version": "0.11.2"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../delusion-parcelize-android/0.11.2/delusion-parcelize-android-0.11.2.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-parcelize-android",
+        "version": "0.11.2"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../delusion-parcelize-desktop/0.11.2/delusion-parcelize-desktop-0.11.2.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-parcelize-desktop",
+        "version": "0.11.2"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../delusion-parcelize-desktop/0.11.2/delusion-parcelize-desktop-0.11.2.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-parcelize-desktop",
+        "version": "0.11.2"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../delusion-parcelize-iosarm64/0.11.2/delusion-parcelize-iosarm64-0.11.2.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-parcelize-iosarm64",
+        "version": "0.11.2"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../delusion-parcelize-iosarm64/0.11.2/delusion-parcelize-iosarm64-0.11.2.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-parcelize-iosarm64",
+        "version": "0.11.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../delusion-parcelize-iossimulatorarm64/0.11.2/delusion-parcelize-iossimulatorarm64-0.11.2.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-parcelize-iossimulatorarm64",
+        "version": "0.11.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../delusion-parcelize-iossimulatorarm64/0.11.2/delusion-parcelize-iossimulatorarm64-0.11.2.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-parcelize-iossimulatorarm64",
+        "version": "0.11.2"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../delusion-parcelize-iosx64/0.11.2/delusion-parcelize-iosx64-0.11.2.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-parcelize-iosx64",
+        "version": "0.11.2"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../delusion-parcelize-iosx64/0.11.2/delusion-parcelize-iosx64-0.11.2.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-parcelize-iosx64",
+        "version": "0.11.2"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../delusion-parcelize-macosarm64/0.11.2/delusion-parcelize-macosarm64-0.11.2.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-parcelize-macosarm64",
+        "version": "0.11.2"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../delusion-parcelize-macosarm64/0.11.2/delusion-parcelize-macosarm64-0.11.2.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-parcelize-macosarm64",
+        "version": "0.11.2"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../delusion-parcelize-macosx64/0.11.2/delusion-parcelize-macosx64-0.11.2.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-parcelize-macosx64",
+        "version": "0.11.2"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../delusion-parcelize-macosx64/0.11.2/delusion-parcelize-macosx64-0.11.2.module",
+        "group": "me.omico.delusion",
+        "module": "delusion-parcelize-macosx64",
+        "version": "0.11.2"
+      }
+    }
+  ]
+}
