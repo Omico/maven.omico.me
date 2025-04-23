@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.consensus",
+    "module": "consensus-publishing",
+    "version": "0.20.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "consensus-publishing-0.20.0.jar",
+          "url": "consensus-publishing-0.20.0.jar",
+          "size": 28116,
+          "sha512": "bed665acdb045c8db17652df14d02c18498371da892d215db11df25be1f88379ab3daa8096c0ddb38f03fc3ea8d0622987780f9eb517d6946f1947a3ad2228cd",
+          "sha256": "bf8fff100b251fd11b981aff5d783d15a41be199e3609a8c0f60ecf02331b5ec",
+          "sha1": "feb21fceb36e0434dbd97426ecfc8900ad5a0a46",
+          "md5": "4e69bd6b7f1ec367584c76b4edff6a83"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-api",
+          "version": {
+            "requires": "0.20.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "consensus-publishing-0.20.0.jar",
+          "url": "consensus-publishing-0.20.0.jar",
+          "size": 28116,
+          "sha512": "bed665acdb045c8db17652df14d02c18498371da892d215db11df25be1f88379ab3daa8096c0ddb38f03fc3ea8d0622987780f9eb517d6946f1947a3ad2228cd",
+          "sha256": "bf8fff100b251fd11b981aff5d783d15a41be199e3609a8c0f60ecf02331b5ec",
+          "sha1": "feb21fceb36e0434dbd97426ecfc8900ad5a0a46",
+          "md5": "4e69bd6b7f1ec367584c76b4edff6a83"
+        }
+      ]
+    }
+  ]
+}
