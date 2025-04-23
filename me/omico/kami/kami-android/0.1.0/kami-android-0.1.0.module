@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.kami",
+    "module": "kami-android",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.kami",
+          "module": "kami-core",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "8.9.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kami-android-0.1.0.jar",
+          "url": "kami-android-0.1.0.jar",
+          "size": 32845,
+          "sha512": "75bb5fbf276ddb5709fba486252f6a5f1fbbbea0ce0e449bbcb6ff49bc0c5051596114b3523817d4f5da8e8b766caa6bf549749985f4e39c067a481bfbc01432",
+          "sha256": "d95191695751be06275d9f4b58c97f64b5479fdc8fffedecdcb7e2481411fd8b",
+          "sha1": "b8c598e4fb547b829a7797eeeecc177072e8913f",
+          "md5": "4914ad3192a052eaaacce60e451cfa5f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.kami",
+          "module": "kami-core",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "8.9.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kami-android-0.1.0.jar",
+          "url": "kami-android-0.1.0.jar",
+          "size": 32845,
+          "sha512": "75bb5fbf276ddb5709fba486252f6a5f1fbbbea0ce0e449bbcb6ff49bc0c5051596114b3523817d4f5da8e8b766caa6bf549749985f4e39c067a481bfbc01432",
+          "sha256": "d95191695751be06275d9f4b58c97f64b5479fdc8fffedecdcb7e2481411fd8b",
+          "sha1": "b8c598e4fb547b829a7797eeeecc177072e8913f",
+          "md5": "4914ad3192a052eaaacce60e451cfa5f"
+        }
+      ]
+    }
+  ]
+}
