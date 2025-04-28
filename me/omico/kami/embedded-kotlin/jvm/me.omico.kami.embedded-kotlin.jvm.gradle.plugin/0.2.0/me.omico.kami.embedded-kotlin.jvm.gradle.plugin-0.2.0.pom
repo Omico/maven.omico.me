@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.omico.kami.embedded-kotlin.jvm</groupId>
+  <artifactId>me.omico.kami.embedded-kotlin.jvm.gradle.plugin</artifactId>
+  <version>0.2.0</version>
+  <packaging>pom</packaging>
+  <url>https://github.com/Omico</url>
+  <licenses>
+    <license>
+      <name>Copyright 2024-2025 Omico. All Rights Reserved.</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Omico</id>
+      <name>Omico</name>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/Omico</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>me.omico.kami</groupId>
+      <artifactId>kami-kotlin-embedded</artifactId>
+      <version>0.2.0</version>
+    </dependency>
+  </dependencies>
+</project>
