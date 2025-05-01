@@ -1,0 +1,200 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.kami",
+    "module": "kami-kotlin",
+    "version": "0.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.kami",
+          "module": "kami-core",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin-api"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin"
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "2.1.20-2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin.plugin.compose",
+          "module": "org.jetbrains.kotlin.plugin.compose.gradle.plugin",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin.plugin.parcelize",
+          "module": "org.jetbrains.kotlin.plugin.parcelize.gradle.plugin",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin.plugin.serialization",
+          "module": "org.jetbrains.kotlin.plugin.serialization.gradle.plugin",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx.atomicfu",
+          "module": "org.jetbrains.kotlinx.atomicfu.gradle.plugin",
+          "version": {
+            "requires": "0.27.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin-api",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kami-kotlin-0.4.0.jar",
+          "url": "kami-kotlin-0.4.0.jar",
+          "size": 90391,
+          "sha512": "c775d7e472941d3ab3d84b28a715be165a9b609d8864704775747add37c403e6812ee54c3b3074da56effe1173b574adf0a8bc42f49b62971ac29051675e792b",
+          "sha256": "bfd2accf15dbbcda5611289c5116d1e5cdf67260e3234d54d236f93ab66ceb0d",
+          "sha1": "0478a27af3e07666dde6ff75b1a493ef20e466fe",
+          "md5": "e9d612d3d82b7b3e51bbe850e21909b7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.kami",
+          "module": "kami-core",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin-api"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin"
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "2.1.20-2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin.plugin.compose",
+          "module": "org.jetbrains.kotlin.plugin.compose.gradle.plugin",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin.plugin.parcelize",
+          "module": "org.jetbrains.kotlin.plugin.parcelize.gradle.plugin",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin.plugin.serialization",
+          "module": "org.jetbrains.kotlin.plugin.serialization.gradle.plugin",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx.atomicfu",
+          "module": "org.jetbrains.kotlinx.atomicfu.gradle.plugin",
+          "version": {
+            "requires": "0.27.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin-api",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kami-kotlin-0.4.0.jar",
+          "url": "kami-kotlin-0.4.0.jar",
+          "size": 90391,
+          "sha512": "c775d7e472941d3ab3d84b28a715be165a9b609d8864704775747add37c403e6812ee54c3b3074da56effe1173b574adf0a8bc42f49b62971ac29051675e792b",
+          "sha256": "bfd2accf15dbbcda5611289c5116d1e5cdf67260e3234d54d236f93ab66ceb0d",
+          "sha1": "0478a27af3e07666dde6ff75b1a493ef20e466fe",
+          "md5": "e9d612d3d82b7b3e51bbe850e21909b7"
+        }
+      ]
+    }
+  ]
+}
