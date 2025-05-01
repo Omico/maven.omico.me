@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.kami",
+    "module": "kami-compose",
+    "version": "0.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.kami",
+          "module": "kami-core",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose",
+          "module": "org.jetbrains.compose.gradle.plugin",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kami-compose-0.5.0.jar",
+          "url": "kami-compose-0.5.0.jar",
+          "size": 8753,
+          "sha512": "96a2d3be761e872211ac8e2996f6b196e0909535f0baf0ab04659cc8227fda15f3e6395cf08f704c8ffc276533c09874b002d5e86c141cb70a5e4024fbba3e8f",
+          "sha256": "e96d9f827dfbac8c4e43de4dd80e9073360389cd266431caa759ad3e277542ad",
+          "sha1": "14d28f6edb6591d8657c096e891bfb06244d66c7",
+          "md5": "df607e65b826a3274b3df9d6a3fd7d2e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.kami",
+          "module": "kami-core",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose",
+          "module": "org.jetbrains.compose.gradle.plugin",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kami-compose-0.5.0.jar",
+          "url": "kami-compose-0.5.0.jar",
+          "size": 8753,
+          "sha512": "96a2d3be761e872211ac8e2996f6b196e0909535f0baf0ab04659cc8227fda15f3e6395cf08f704c8ffc276533c09874b002d5e86c141cb70a5e4024fbba3e8f",
+          "sha256": "e96d9f827dfbac8c4e43de4dd80e9073360389cd266431caa759ad3e277542ad",
+          "sha1": "14d28f6edb6591d8657c096e891bfb06244d66c7",
+          "md5": "df607e65b826a3274b3df9d6a3fd7d2e"
+        }
+      ]
+    }
+  ]
+}

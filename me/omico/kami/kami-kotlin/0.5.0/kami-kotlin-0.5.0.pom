@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.omico.kami</groupId>
+  <artifactId>kami-kotlin</artifactId>
+  <version>0.5.0</version>
+  <url>https://github.com/Omico</url>
+  <licenses>
+    <license>
+      <name>Copyright 2024-2025 Omico. All Rights Reserved.</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Omico</id>
+      <name>Omico</name>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/Omico</url>
+  </scm>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.jetbrains.kotlin</groupId>
+        <artifactId>kotlin-gradle-plugin-api</artifactId>
+        <version>2.1.20</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jetbrains.kotlin</groupId>
+        <artifactId>kotlin-gradle-plugin</artifactId>
+        <version>2.1.20</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+  <dependencies>
+    <dependency>
+      <groupId>me.omico.kami</groupId>
+      <artifactId>kami-core</artifactId>
+      <version>0.5.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-gradle-plugin-api</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-gradle-plugin</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.devtools.ksp</groupId>
+      <artifactId>com.google.devtools.ksp.gradle.plugin</artifactId>
+      <version>2.1.20-2.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin.plugin.compose</groupId>
+      <artifactId>org.jetbrains.kotlin.plugin.compose.gradle.plugin</artifactId>
+      <version>2.1.20</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin.plugin.parcelize</groupId>
+      <artifactId>org.jetbrains.kotlin.plugin.parcelize.gradle.plugin</artifactId>
+      <version>2.1.20</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin.plugin.serialization</groupId>
+      <artifactId>org.jetbrains.kotlin.plugin.serialization.gradle.plugin</artifactId>
+      <version>2.1.20</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx.atomicfu</groupId>
+      <artifactId>org.jetbrains.kotlinx.atomicfu.gradle.plugin</artifactId>
+      <version>0.27.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
