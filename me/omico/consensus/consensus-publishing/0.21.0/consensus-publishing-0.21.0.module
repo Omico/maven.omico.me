@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.omico.consensus",
+    "module": "consensus-publishing",
+    "version": "0.21.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "consensus-publishing-0.21.0.jar",
+          "url": "consensus-publishing-0.21.0.jar",
+          "size": 29322,
+          "sha512": "1127b94513dcb04c33a9cf7874198461ea797677724675ae908bc35b1bceaa98ff1442eda7b36bdcd875b0161685f23bf50b19a62dbdc6a6123dbb23889bc543",
+          "sha256": "34bf18b8ce919476d82ebbbdbcb6ed3855aa7e743b7bc012287412eb7b2a5761",
+          "sha1": "500608b277ad6c54abac73b819164446c55cea90",
+          "md5": "1a50222a08bf0924d1d4272c3e7a1fe4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.omico.consensus",
+          "module": "consensus-api",
+          "version": {
+            "requires": "0.21.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "consensus-publishing-0.21.0.jar",
+          "url": "consensus-publishing-0.21.0.jar",
+          "size": 29322,
+          "sha512": "1127b94513dcb04c33a9cf7874198461ea797677724675ae908bc35b1bceaa98ff1442eda7b36bdcd875b0161685f23bf50b19a62dbdc6a6123dbb23889bc543",
+          "sha256": "34bf18b8ce919476d82ebbbdbcb6ed3855aa7e743b7bc012287412eb7b2a5761",
+          "sha1": "500608b277ad6c54abac73b819164446c55cea90",
+          "md5": "1a50222a08bf0924d1d4272c3e7a1fe4"
+        }
+      ]
+    }
+  ]
+}
